@@ -5,6 +5,12 @@
 	box-sizing: border-box;
 }
 
+body
+{
+	background:whitesmoke;
+
+}
+
 
 header
 {
@@ -38,4 +44,42 @@ header input
 	padding:5px;
 	width:20%;
 
+}
+
+header .nav-button span
+	
+{
+	background: red;
+	padding:3px;
+	display:block;
+	margin:3px ;
+	width:30px;
+	margin-left:15px;
+	font-size:10px;
+	cursor:pointer;
+	border-radius: 2px;
+
+}
+
+
+/* this is where the side-nav styling start */
+
+.main-body
+{
+	background:whitesmoke;
+	padding:30px;
+}
+
+
+footer
+{
+	background:black;
+	padding:10px;
+	text-align: center;
+
+}
+
+footer h2
+{
+	color:white;
 }
