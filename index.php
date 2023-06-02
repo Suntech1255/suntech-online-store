@@ -8,7 +8,7 @@
 </head>
 <body>
 
-   <h3 style="text-align: center;opacity: 0.3;padding:10px; background: linear-gradient(to left,rgba(225,225,0,0.5),">ONLINE - STORE</h3>
+   <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
 
    <div class="wrapper">
 
