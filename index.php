@@ -6,6 +6,6 @@
 	<title>suntech-online-store</title>
 </head>
 <body>
-   <h1 style="text-align: center;color:white; background: linear-gradient(to left,rgba(225,225,0,0.5),blue);padding: 5px;">ONLINE - STORE</h1>
+   <h1 style="text-align: center;color:white; background: linear-gradient(to left,rgba(225,225,0,0.5),blue);padding: 5px;">Update branch</h1>
 </body>
 </html>
