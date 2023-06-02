@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MY PAGE</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>MY PAGE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <style>
-    	*
-    	{
+        *
+        {
         pading:0;//this is a padding
         margin: 0;
 
-    	}
+        }
 body
 {
-  background: whitesmoke;
+  background:whitesmoke;
   font-family:arial;
 
 }
@@ -31,16 +31,14 @@ body
 }
 a
 {
-	text-decoration: none;
+    text-decoration: none;
 }
 form
 {
-background:url('images/p.jpg');
-background-size:cover ;
-background-repeat: no-repeat;
+background:whitesmoke;
 padding:40px;
 margin:auto;
-width:600px ;
+max-width:800px;
 height:500px;
 border-radius:10px;
 margin-top:40px; 
@@ -49,7 +47,7 @@ box-shadow:1px 2px 3px ;
 }
 form input , textarea
 {
-	display: block;
+    display: block;
    padding:15px;
    margin:auto;
    width:70%;
@@ -59,47 +57,12 @@ button
  cursor: pointer;
  color:red;
  
- width:100px;	
+ width:100px;   
 }
 label
 {
-	color:white;
+    color:white;
 }
-input:focus
-{
-  background: red;
-  padding:30px;
-  width:90%;
-  transition:3s ;
-  border-radius: 5px;
-
-
-
-}
-
-@media only screen and (max-width:800px)
-{
-  body
-  {
-  	background: skyblue;
-  }
-   
-form
-{
-
-	background: pink;
-}
-button:hover
-{
-  box-shadow: 1px 2px 4px rgba(255, 0, 9, 35);
-}
-
-}
-
-
-
-
-
 
 
 
@@ -118,7 +81,7 @@ button:hover
    <a href="about.html">REGISTER</a>
    <a href="about.html">FAQ</a>
 
-</div>	
+</div>  
 
 
 <form>
