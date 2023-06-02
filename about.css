@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background-color: blue;
+    }
+    .heading{
+        width:90%;
+        display:flex;
+        justify-content: flex;
+    }

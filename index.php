@@ -7,9 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
+
    <h1 style="text-align: center;">texting project new</h1>
-=======
+
 
    <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
 
@@ -19,20 +19,81 @@
 
    			<h3> SUNTECH.COM</h3>
 
+   				<div class="nav-button">
 
-   			<input type="text" placeholder="search" name="search">
+   					<span></span>
+   					<span></span>
+   					<span></span>
+
+   				</div>
 
 
+   					<input type="text" placeholder="search" name="search">
 
    		</header>
 
+   		<div class="main-body">
+
+
+   			<div class="side-nav">
+
+   					<div class="heading">
+								<h2> Dashboard</h2>
+						</div>
+
+						<div class="links">
+		    				 <a href="index.php">Home</a>
+
+		 				</div>
+
+						<div class="links">
+		    			 	<a href="about.php">About</a>
+
+		  				</div>
+
+						<div class="links">
+		     				<a href="Register.php">Register</a>
+
+		  				</div>
+
+
+						<div class="links">
+		   				 <a href="Login.php">Login</a>
+
+		  				</div>
+
+
+						<div class="links">
+		     				<a href="Market.php">Market</a>
+
+		  				</div>
+
+
+						<div class="links">
+		     				<a href="Logout.php">Logout</a>
+
+		  				</div>
+
+
+
+
+   		</div>
+
+   	</div>
 
 
 
 
    </div>
 
+   <footer>
 
->>>>>>> d654e3ff9cad16a45a31b440568ac08ea98b51cb
+
+   	<h2> Copyright & site clonning not supported;suntech global</h2>
+
+
+
+   </footer>
+
 </body>
 </html>
