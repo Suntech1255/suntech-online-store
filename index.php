@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
+
    <h1 style="text-align: center;">texting project new</h1>
 
 
@@ -35,7 +35,7 @@
    		<div class="main-body">
 
 
-   			<div id="side-nav">
+   			<div class="side-nav">
 
    					<div class="heading">
 								<h2> Dashboard</h2>

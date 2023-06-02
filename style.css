@@ -71,6 +71,13 @@ header .nav-button span
 }
 
 
+#side-nav
+{
+	background: royalblue;
+	padding:30px;
+}
+
+
 footer
 {
 	background:black;
