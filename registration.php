@@ -39,7 +39,7 @@ background:skyblue;
 padding:40px;
 margin:auto;
 max-width:800px;
-height:500px;
+height:520px;
 border-radius:10px;
 margin-top:40px; 
 text-align: center;
