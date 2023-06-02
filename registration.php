@@ -35,7 +35,7 @@ a
 }
 form
 {
-background:whitesmoke;
+background:skyblue;
 padding:40px;
 margin:auto;
 max-width:800px;
@@ -86,8 +86,8 @@ label
 
 <form>
 
-        <h1>LOGIN FORM</h1>
-
+        <h1>REGISTRATION FORM</h1>
+           <br>
     <label>NAME</label>
     <br>
     <br>
