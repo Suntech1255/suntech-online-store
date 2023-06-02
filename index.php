@@ -7,8 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-   <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
+
+   <h3 style="text-align: center;opacity: 0.3;padding:10px; background: linear-gradient(to left,rgba(225,225,0,0.5),">ONLINE - STORE</h3>
 
    <div class="wrapper">
 
@@ -30,8 +30,5 @@
    </div>
 
 
-=======
-   <h1 style="text-align: center;color:white; background: linear-gradient(to left,rgba(225,225,0,0.5),blue);padding: 5px;">ONLINE - STORE</h1>
->>>>>>> 276e7c211d7a6558c75990f0098b9b7a25ad907a
 </body>
 </html>
