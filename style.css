@@ -67,14 +67,45 @@ header .nav-button span
 .main-body
 {
 	background:whitesmoke;
-	padding:30px;
+	display: flex;
+	margin-top: 20px;
+
 }
 
 
-#side-nav
+.side-nav
 {
-	background: royalblue;
+	background:darkblue;
+	min-height: 100vh;
+	max-width: 40%;
+	text-align: center;
+
+	
+}
+
+.side-nav a
+{
+	color:white;
+	text-decoration: none;
+	margin:5px 7px 5px 7px;
+	padding:5px 7px 5px 7px;
+}
+
+a
+{
+	margin:5px 7px 5px 7px;
+	padding:5px 7px 5px 7px;
+}
+
+
+
+.site-content
+{
+	/*background:yellow;*/
 	padding:30px;
+	min-height: 100vh;
+	width:100%;
+	max-width: 2000px;
 }
 
 

@@ -8,9 +8,6 @@
 </head>
 <body>
 
-   <h1 style="text-align: center;">texting project new</h1>
-
-
    <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
 
    <div class="wrapper">
@@ -52,19 +49,19 @@
 		  				</div>
 
 						<div class="links">
-		     				<a href="Register.php">Register</a>
+		     				<a href="registration.php">Register</a>
 
 		  				</div>
 
 
 						<div class="links">
-		   				 <a href="Login.php">Login</a>
+		   				 <a href="login.php">Login</a>
 
 		  				</div>
 
 
 						<div class="links">
-		     				<a href="Market.php">Market</a>
+		     				<a href="market.php">Market</a>
 
 		  				</div>
 
@@ -74,10 +71,21 @@
 
 		  				</div>
 
+		  		</div>
+
+		  			<div class="site-content">
 
 
 
-   		</div>
+		  				<h1>welCome</h1>
+
+
+		  			</div>
+
+
+
+
+   		
 
    	</div>
 
