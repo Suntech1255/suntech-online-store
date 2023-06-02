@@ -6,6 +6,6 @@
 	<title>suntech-online-store</title>
 </head>
 <body>
-   <h1 style="text-align: center;">texting project new</h1>
+   <h1 style="text-align: center;">ONLINE - STORE</h1>
 </body>
 </html>
