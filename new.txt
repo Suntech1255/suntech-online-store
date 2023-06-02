@@ -1,0 +1,80 @@
+commit 77d2d525bd87ca5dcf77a8e2e352739740348e04
+Merge: 8f9d938 461f723
+Author: Rejoice <rejoiceprince70@gmail.com>
+Date:   Fri Jun 2 15:38:39 2023 +0100
+
+    Merge branch 'main' of https://github.com/Suntech1255/suntech-online-store
+
+commit 8f9d9387d5cea6a1dc567f095783976fafb9a6e2
+Author: Rejoice <rejoiceprince70@gmail.com>
+Date:   Fri Jun 2 15:35:38 2023 +0100
+
+    This is suntech online store
+
+commit 461f7239bf751ca70eff595a80673d9797a90e9a
+Author: peterchris <peteredeye057@gmail.com>
+Date:   Fri Jun 2 15:29:41 2023 +0100
+
+    updated index page
+
+commit f35825b2d554e0982c121b0654e470b0f333ad18
+Author: Sunshine bm <sunshinebm@gmail.com>
+Date:   Fri Jun 2 11:51:02 2023 +0100
+
+    updated index page
+
+commit 6a562781e419ae5361f4fdaae2bd75139322c6b4
+Merge: 988f815 852de82
+Author: Sunshine bm <sunshinebm@gmail.com>
+Date:   Thu Jun 1 21:38:00 2023 +0100
+
+    merge files
+
+commit 852de828ce1923bfb618e34d6502f7f3209eaad7
+Author: Suntech1255 <132100111+Suntech1255@users.noreply.github.com>
+Date:   Thu Jun 1 23:41:00 2023 +0100
+
+    i updated market market.php
+
+commit 8f2cceec444ce0a63b31017e633f46237dc8d123
+Author: Suntech1255 <132100111+Suntech1255@users.noreply.github.com>
+Date:   Thu Jun 1 23:30:51 2023 +0100
+
+    i added new to index.php
+
+commit 56e4bdd81590e07582552bd226e5ab34105f703f
+Author: Suntech1255 <132100111+Suntech1255@users.noreply.github.com>
+Date:   Thu Jun 1 23:18:36 2023 +0100
+
+    Create market.php
+
+commit e872eb8d5e4d777296db47a0df9c7f3f8c22d098
+Author: Suntech1255 <132100111+Suntech1255@users.noreply.github.com>
+Date:   Thu Jun 1 22:50:59 2023 +0100
+
+    Create about.php
+
+commit d2e4fc52a82f5d0aded2fc161088fcc11a101e06
+Author: Sunshine bm <sunshinebm@gmail.com>
+Date:   Thu Jun 1 21:35:47 2023 +0100
+
+    i added a new h1 tag
+
+commit 988f81580e39c9f873fbbfbd49421d592c84c5c6
+Merge: acc3b7d 8f2ccee
+Author: Sunshine bm <sunshinebm@gmail.com>
+Date:   Thu Jun 1 21:07:23 2023 +0100
+
+    recent update in index
+
+commit acc3b7d2a641c236fa37d95ca7c9c6a107dba84f
+Author: Sunshine bm <sunshinebm@gmail.com>
+Date:   Thu Jun 1 20:56:46 2023 +0100
+
+    i made chages
+
+commit c06bffa519030c69349b9b0bf41e7c03f5f8cc36
+Author: Sunshine bm <sunshinebm@gmail.com>
+Date:   Thu Jun 1 20:55:17 2023 +0100
+
+    i created an index page
