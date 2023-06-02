@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	
+   <h1 style="text-align: center;">texting project new</h1>
+
 
    <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
 
@@ -83,7 +86,6 @@
 
    </div>
 
-
    <footer>
 
 
@@ -92,7 +94,6 @@
 
 
    </footer>
-
 
 </body>
 </html>
