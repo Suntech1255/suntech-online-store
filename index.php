@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<<<<<<< HEAD
+   <h1 style="text-align: center;">texting project new</h1>
+=======
 
    <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
 
@@ -30,5 +33,6 @@
    </div>
 
 
+>>>>>>> d654e3ff9cad16a45a31b440568ac08ea98b51cb
 </body>
 </html>
