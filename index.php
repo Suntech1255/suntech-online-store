@@ -14,11 +14,12 @@
 {
 	background:darkblue;
 	min-height: 100vh;
-	max-width:20vw;
 	text-align: center;
 	transition: 2s;
-	width:20%;
-
+	width:10%;
+	margin-top:30px;
+	position:fixed;
+	left:-10%;
 	
 }
 
@@ -58,11 +59,8 @@
 </head>
 <body>
 
-   <h3 style="text-align: center;opacity: 0.3;">ONLINE - STORE</h3>
-
-   <div class="wrapper">
-
-   		<header>
+ 
+   <header>
 
    			<h3> SUNTECH.COM</h3>
 
@@ -79,6 +77,10 @@
 
    		</header>
 
+
+   <div class="wrapper">
+
+   		
    		<div class="main-body">
 
 
@@ -159,7 +161,7 @@
 		  						<div class="section-2">
 
 		  								
-		  						<div class="sub_section-2">
+		  							<div class="sub_section-2">
 
 
 		  						
@@ -182,7 +184,7 @@
 
 		  					
 
-		  						</div>
+		  							</div>
 
 
 		  						</div>
@@ -221,14 +223,15 @@
 		{
 			if(open==false)
 			{
-			var side_nav= document.querySelector(".side-nav").style.maxWidth="20vw";
+			var side_nav= document.querySelector(".side-nav").style.left="0";
+
 
 			open=true;
 
 			}
 			else if (open==true) 
 			{
-				var side_nav= document.querySelector(".side-nav").style.maxWidth="0";
+				var side_nav= document.querySelector(".side-nav").style.left="-10%";
 				open=false;
 			}
 
