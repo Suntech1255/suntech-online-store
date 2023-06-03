@@ -89,7 +89,7 @@
 						</div>
 
 						<div class="links">
-		    				 <a href="index.php">Home</a>
+		    				 <a href="index.php"></i>Home</a>
 
 		 				</div>
 
@@ -125,9 +125,46 @@
 
 		  			<div class="site-content">
 
+		  				<i><b><h1 style="color:darkblue;">SUNTECH eCOMMERCE</h1></b></i>
+
+		  				<div class="main_section">
+
+		  						<div class="sub_section-1">
+
+		  							<span>1</span>
+		  							<span>2</span>
+		  							<span>3</span>
+		  							<span>4</span>
+		  							<span>4</span>
+		  							<span>4</span>
+		  							<span>4</span>
+		  							<span>4</span>
+
+		  						</div>
 
 
-		  				<h1>welCome</h1>
+
+		  						<div class="sub_section-2">
+
+
+
+		  							<span>1</span>
+		  							<span>2</span>
+		  							<span>3</span>
+		  							<span>4</span>
+		  							<span>4</span>
+		  							<span>4</span>
+		  							<span>4</span>
+		  							<span>4</span>
+
+
+
+		  						</div>
+
+		  				</div>
+
+
+
 
 
 		  			</div>

@@ -99,7 +99,15 @@ header .nav-button span
 	margin-left: 50px;
 	margin-right: 30px;
 	border-radius: 20px;
-	box-shadow: 3px 4px 3px 4px rgba(0,0,0.2);
+	box-shadow: 2px 3px 2px 3px rgba(0,0,0.1);
+}
+
+
+ .main_section span
+{
+	background:yellow;
+	padding:30px;
+	color:white;
 }
 
 
