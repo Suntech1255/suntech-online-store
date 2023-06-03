@@ -1,20 +1,58 @@
 <html>
 
-
-<body style="background-color:pink;padding:0px;margin:0px">
-<div style="background-color:skyblue;padding:20px;width:auto;">
-<center><h1>Welcome to suntech-online-store</h1></center>
-
-<a href="about.html">HOME</a>
-
+<body>
+<div class="about-us">
+<div class="container">
+<h2>ABOUT US</h2>
+<h3>More about suntech-online-store</h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione perferendis magnam aut,
+     magni quasi tenetur facilis dignissimos quia minima?  Veritatis explicabo laborum ducimus quia itaque
+     es consequuntur, doloremque maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Officiis ratione perferendis magnam aut, magni quasi tenetur facilis dignissimos quia minima? 
+     Veritatis explicabo laborum ducimus quia itaque dolores consequuntur, doloremque maiores.</p>
 </div>
+</div>
+<style>
+*
+{
+    margin:0px;
+    padding:0px;
+    
+    font-family:tahoma;    
+}
+.about-us{
+    padding: 80px 0px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.about-us h2{
+    font-size:40px;
+    color:blue;
+    text-align:center;
+}
+.about-us h3{
+    font-size:30px;
+    color:red;
+    text-align:center;
+}
+.about-us p{
+    font-size:16px;
+    color:white;
+
+} 
+body{
+    background-color:orange;
+}
+@media screen and(max-width)
 
 
 
+
+
+
+</style>
 </body>
-
-
-
-
 </html>
-

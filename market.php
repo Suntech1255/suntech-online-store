@@ -2,17 +2,18 @@
 <html>
 <head>
 	<title>MARKET</title>
+	<link rel="stylesheet" type="text/css" href="market.css">
 	<style type="text/css">
 		
 	</style>
 </head>
 <body>
 
- <div  class="head">
+ <header  class="head">
  	<h1>ONLINE STORE</h1>
  	<p>ITEMS AND PRICES</p>
- 	<hr>
- </div>
+ 	
+ </header>
 
  <section>
  	<!--card start -->
