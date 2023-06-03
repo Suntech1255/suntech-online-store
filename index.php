@@ -161,27 +161,22 @@
 		  						<div class="section-2">
 
 		  								
-		  							<div class="sub_section-2">
+		  							<div class="sub_section-2">			
 
-
+		  							<li>Pet Supply Store</l1>
+		  							<li>Art & Craft Store</li>
+		  							<li>Toy Store</li>
+		  							<li>Electronic Store</li>
+		  							<li>Beauty Store</li>
+		  							<li>Jewelry Store </li>
+		  							<li>Clothing Store</li>
+		  							<li>Stationery Store</li>
 		  						
 
-		  							<li>Accessary Store</l1>
-		  							<li>Game Store</li>
-		  							<li>Broker Store</li>
-		  							<li>Portfolio Store</li>
-		  							<li>Marketing Store</li>
-		  							<li>Wellness Store</li>
-		  							<li>Bookstore</li>
-		  							<li>Subscription Box Company</li>
-		  							<li>Blockchain </li>
-		  							<li>Boots</li>
-		  							<li>Zmstrategy Trading Bots</li>
-		  							<li>Ceramic Studio</li>
-		  							<li>Cookie Shop</li>
-		  							<li>Stationary Store</li>
-		  							<li>Product Landing Page</li>
+		  						<div class="image-1">
 
+		  							<img src="./image/bag.jpg">
+		  						</div>
 		  					
 
 		  							</div>
