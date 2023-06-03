@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>MARKET</title>
-	<link rel="stylesheet" type="text/css" href="market.css">
+	<link rel="stylesheet" type="text/css" href="./image/market1.css">
 	<style type="text/css">
 		
 	</style>
