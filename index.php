@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>suntech-online-store</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+
+
+.side-nav
+{
+	background:darkblue;
+	min-height: 100vh;
+	width:30%;
+	max-width:13%;
+	text-align: center;
+
+	
+}
+
+
+.side-nav a 
+{
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	margin-top:20px;
+	display: block;
+	color:lightblue;
+
+
+}
+
+
+
+.side-nav .links a
+{
+	
+	padding:20px;	
+	color:white;
+}
+
+
+
+	</style>
+
+
 </head>
 <body>
 

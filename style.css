@@ -73,30 +73,20 @@ header .nav-button span
 }
 
 
-.side-nav
-{
-	background:darkblue;
-	min-height: 100vh;
-	max-width: 40%;
-	text-align: center;
 
-	
-}
 
-.side-nav a
+
+.side-nav h2
 {
 	color:white;
-	text-decoration: none;
-	margin:5px 7px 5px 7px;
-	padding:5px 7px 5px 7px;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
-a
+.heading
 {
-	margin:5px 7px 5px 7px;
-	padding:5px 7px 5px 7px;
+	background:red;
 }
-
 
 
 .site-content
