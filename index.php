@@ -3,6 +3,7 @@
 <head>
 
 	<title>suntech-online-store</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -13,9 +14,10 @@
 {
 	background:darkblue;
 	min-height: 100vh;
-	width:30%;
-	max-width:13%;
+	max-width:20vw;
 	text-align: center;
+	transition: 2s;
+	width:15%;
 
 	
 }
@@ -43,6 +45,12 @@
 }
 
 
+.side-nav .links a:visited
+{
+	background: red;
+}
+
+
 
 	</style>
 
@@ -58,7 +66,7 @@
 
    			<h3> SUNTECH.COM</h3>
 
-   				<div class="nav-button">
+   				<div class="nav-button" onclick="close_and_open()">
 
    					<span></span>
    					<span></span>
@@ -136,6 +144,37 @@
 
    </div>
 
+
+
+
+ <script>
+
+
+ 	//boolean
+
+		var open=false;
+
+		function close_and_open()
+		{
+			if(open==false)
+			{
+			var side_nav= document.querySelector(".side-nav").style.maxWidth="20vw";
+
+			open=true;
+
+			}
+			else if (open==true) 
+			{
+				var side_nav= document.querySelector(".side-nav").style.maxWidth="0";
+				open=false;
+			}
+
+		}
+
+
+
+</script>
+
    <footer>
 
 
@@ -147,3 +186,4 @@
 
 </body>
 </html>
+
