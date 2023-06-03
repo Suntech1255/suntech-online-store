@@ -158,17 +158,11 @@
 
 		  						<div class="section-2">
 
+		  								<div class="image-1">
 
+		  									<img src>
 
-		  							<span>1</span>
-		  							<span>2</span>
-		  							<span>3</span>
-		  							<span>4</span>
-		  							<span>4</span>
-		  							<span>4</span>
-		  							<span>4</span>
-		  							<span>4</span>
-
+		  								</div>
 
 
 		  						</div>
@@ -227,7 +221,7 @@
    <footer>
 
 
-   	<h2> Copyright & site clonning not supported;suntech global</h2>
+   	<h3> Copyright@2023; suntech global</h3>
 
 
 
