@@ -125,26 +125,38 @@
 
 		  			<div class="site-content">
 
-		  				<i><b><h1 style="color:darkblue;">SUNTECH eCOMMERCE</h1></b></i>
+		  				<i><b><h1 style="color:darkblue;box-shadow: 4px 5px rgba(0,0,0,0.3);">SUNTECH eCOMMERCE</h1></b></i>
 
 		  				<div class="main_section">
 
 		  						<div class="sub_section-1">
 
-		  							<span>1</span>
-		  							<span>2</span>
-		  							<span>3</span>
-		  							<span>4</span>
-		  							<span>4</span>
-		  							<span>4</span>
-		  							<span>4</span>
-		  							<span>4</span>
+
+		  						
+
+		  							<li>Accessary Store</l1>
+		  							<li>Game Store</li>
+		  							<li>Broker Store</li>
+		  							<li>Portfolio Store</li>
+		  							<li>Marketing Store</li>
+		  							<li>Wellness Store</li>
+		  							<li>Bookstore</li>
+		  							<li>Subscription Box Company</li>
+		  							<li>Blockchain </li>
+		  							<li>Boots</li>
+		  							<li>Zmstrategy Trading Bots</li>
+		  							<li>Ceramic Studio</li>
+		  							<li>Cookie Shop</li>
+		  							<li>Stationary Store</li>
+		  							<li>Product Landing Page</li>
+
+		  					
 
 		  						</div>
 
 
 
-		  						<div class="sub_section-2">
+		  						<div class="section-2">
 
 
 

@@ -103,12 +103,41 @@ header .nav-button span
 }
 
 
- .main_section span
+ .main_section 
 {
-	background:yellow;
-	padding:30px;
-	color:white;
+	background: yellow;
+	padding:30px;	
+	display:flex;
 }
+
+
+.sub_section-1
+{
+	background:linear-gradient(red,royalblue);
+	min-height:70vh;
+	padding:30px;
+
+}
+
+.sub_section-1 li 
+{
+	color:white;
+	margin-top:10px;
+}
+
+.section-2
+{
+	background: lime;
+	margin-left: 30px;
+	width:900px;
+
+}
+
+
+
+
+
+
 
 
 footer
