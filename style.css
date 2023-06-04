@@ -63,6 +63,12 @@ header .nav-button span
 }
 
 
+p
+{
+	color:red;
+}
+
+
 /* this is where the side-nav styling start */
 
 .main-body

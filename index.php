@@ -75,6 +75,8 @@
 
    					<input type="text" placeholder="search" name="search">
 
+   					<p>Product</p>
+
    		</header>
 
 
