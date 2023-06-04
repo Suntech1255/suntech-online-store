@@ -158,10 +158,10 @@
 
 
 
-		  						<div class="section-2">
+		  			<div class="section-2">
 
 		  								
-		  							<div class="sub_section-2">			
+		  						<div class="sub_section-2">			
 
 		  							<li>Pet Supply Store</l1>
 		  							<li>Art & Craft Store</li>
@@ -173,13 +173,13 @@
 		  							<li>Stationery Store</li>
 		  						
 
-		  						<div class="image-1">
+		  								<div class="image-1">
 
-		  							<img src="./image/bag.jpg">
-		  						</div>
-		  					
+		  									<img src="./image/bag.jpg">
+		  								</div>
 
-		  							</div>
+
+		  			</div>
 
 
 		  						</div>
