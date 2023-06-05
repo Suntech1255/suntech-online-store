@@ -51,6 +51,16 @@
 	background: red;
 }
 
+.Product
+{
+	background: whitesmoke;
+	width:100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	margin-left: 200px;
+	border-radius: 5px;
+}
 
 
 	</style>
@@ -75,7 +85,12 @@
 
    					<input type="text" placeholder="search" name="search">
 
-   					<p>Product</p>
+   				<div class="Product">
+   					<a style="color:red;font-size: 20px;">Product</a>
+
+   				</div>
+
+   					<button style="border-radius: 5px;margin-top: auto;margin-bottom: auto;height:25px;cursor: pointer;">drop down</button>
 
    		</header>
 
@@ -179,9 +194,25 @@
 
 		  									<img src="./image/bag.jpg">
 		  								</div>
+		  						</div>
+
+
+		  						<div class="sub_section-3">
+
+		  							<span>1</span>
+		  							<span>2</span>
+		  							<span>3</span>
+		  					
+
+		  						</div>
+
 
 
 		  			</div>
+
+
+
+
 
 
 		  						</div>

@@ -63,10 +63,6 @@ header .nav-button span
 }
 
 
-p
-{
-	color:red;
-}
 
 
 /* this is where the side-nav styling start */
@@ -146,6 +142,8 @@ p
 	color:white;
 	margin-top:20px;
 }
+
+
 
 
 .image-1 img 
