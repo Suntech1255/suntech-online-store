@@ -39,12 +39,15 @@ header
 
 }
 
- li
+.Product li
 {
 	color:blue;
 	font-size: 20px;
 	margin-top: 5px;
 	text-decoration: none;
+	background: ghostwhite;
+	padding: 5px;
+	border-bottom-right-radius: 10px;
 }
 
 
@@ -89,8 +92,21 @@ header input
 {
 	margin-top: auto;
 	margin-bottom: auto;
-	color:white;
+	margin-left: 100px;
+	color:yellow;
+	cursor:pointer;
+
 }
+
+.fa-bell
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 50px;
+	color:royalblue;
+	cursor:pointer;
+}
+
 
 header .nav-button span
 	
@@ -228,6 +244,7 @@ header .nav-button span
 	cursor: pointer;
 	border:solid black 1px;
 	height:150px
+	z-index: 100;
 }
 
 
@@ -254,8 +271,12 @@ footer
 
 }
 
-footer h2
+footer h3
 {
 	color:white;
 
 }
+
+
+@media only screen and (max-width: 800px) {
+/* CSS rules for mobile devices */
