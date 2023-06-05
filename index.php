@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 
 
@@ -83,16 +83,29 @@
    				</div>
 
 
-   					<input type="text" placeholder="search" name="search">
+   					<input type="text" placeholder="search" name="search"><i class="fa fa-search"></i>
 
    				<div class="Product">
-   					<a style="color:red;font-size: 20px;">Product</a>
+   					<div style="color:red;font-size: 20px;">Product</div>
+   						<ul class="drop_down">
+   							<b><li>Pro-Version</li></b>	
+   							<b><li>Cashweb</li></b>
+   							<b><li>Blockchain</li></b>	
+   							<b><li>Amazone</li></b>
 
-   				</div>
+   						</ul>
+   						<button style="border-radius: 5px;margin-top: auto;margin-bottom: auto;height:25px;cursor: pointer;margin-left:auto; outline:none" onclick="myDropdown()"><i class="fa fa-arrow-down"></i> </button>
 
-   					<button style="border-radius: 5px;margin-top: auto;margin-bottom: auto;height:25px;cursor: pointer;">drop down</button>
+   					</div>
+
+   							<i style="color:white;"  class="fa fa-user fa-lg" style="color: #007bff;"></i>
+   				
+
 
    		</header>
+
+   				
+   		
 
 
    <div class="wrapper">
@@ -199,21 +212,9 @@
 
 		  						<div class="sub_section-3">
 
-		  							<li>Accessary Store</l1>
-		  							<li>Game Store</li>
-		  							<li>Broker Store</li>
-		  							<li>Portfolio Store</li>
-		  							<li>Marketing Store</li>
-		  							<li>Wellness Store</li>
-		  							<li>Bookstore</li>
-		  							<li>Subscription Box Company</li>
-		  							<li>Blockchain </li>
-		  							<li>Boots</li>
-		  							<li>Zmstrategy Trading Bots</li>
-		  							<li>Ceramic Studio</li>
-		  							<li>Cookie Shop</li>
-		  							<li>Stationary Store</li>
-		  							<li>Product Landing Page</li>
+
+		  						</div>
+
 
 		  						</div><!-- sub-3 div end-->
 
@@ -286,6 +287,29 @@
 
 		}
 
+		////////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////
+
+		//boolean
+
+		var drop_down=true;
+		function myDropdown()
+		{
+			if(drop_down==false)
+			{
+			var side_nav= document.querySelector(".drop_down").style.display="none";
+
+
+			drop_down=true;
+
+			}
+			else if (drop_down==true) 
+			{
+				var side_nav= document.querySelector(".drop_down").style.display="block";
+				drop_down=false;
+			}
+
+		}
 
 
 </script>
@@ -293,7 +317,7 @@
    <footer>
 
 
-   	<h2> Copyright @ 2023; suntech global</h2>
+   	<h2> Copyright  © 2023; suntech global</h2>
 
 
 
