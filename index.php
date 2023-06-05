@@ -18,7 +18,7 @@
 	text-align: center;
 	transition: 2s;
 	width:10%;
-	margin-top:30px;
+	margin-top:50px;
 	position:fixed;
 	left:-10%;
 	
@@ -79,7 +79,7 @@
    					<input type="text" placeholder="search" name="search"><i class="fa fa-search"></i>
 
    				<div class="Product">
-   					<div style="color:red;font-size: 20px;opacity:0.4">Product</div>
+   					<div style="color:red;font-size: 20px;opacity:0.6">Product</div>
    						<ul class="drop_down">
    							<b><li>Pro-Version</li></b>	
    							<b><li>Cashweb</li></b>
@@ -91,7 +91,7 @@
 
    					</div>
    						<!-- styling fontawesome--->
-   							<i style="font-size:30px"  class="fa fa-user fa-lg" style="color: #007bff;"></i>
+   							<i style="font-size:30px;"  class="fa fa-user fa-lg" style="color: #007bff;"></i>
    						<!-- styling fontawesome--->
    							<i style="font-size:25px;"class="fa fa-bell"></i>
 
