@@ -197,19 +197,26 @@
 		  						</div><!-- sub_section 2 div end-->
 
 
-		  						<div class="sub_section-3">
-
-		  							<div class="span_1">1</div>
-		  							<div class="span_2">2</div>
-		  							<div class="span_3">3</div>
-
 		  					
+		  							<li>Accessary Store</l1>
+		  							<li>Game Store</li>
+		  							<li>Broker Store</li>
+		  							<li>Portfolio Store</li>
+		  							<li>Marketing Store</li>
+		  							<li>Wellness Store</li>
+		  							<li>Bookstore</li>
+		  							<li>Subscription Box Company</li>
+		  							<li>Blockchain </li>
+		  							<li>Boots</li>
+		  							<li>Zmstrategy Trading Bots</li>
+		  							<li>Ceramic Studio</li>
+		  							<li>Cookie Shop</li>
+		  							<li>Stationary Store</li>
+		  							<li>Product Landing Page</li>
 
-		  						</div><!-- sub-3 div end-->
-		  							<img style="height: 100px;" src="./image/cream.jpg">
 
+		  							
 		  				</div><!-- section_2 div end-->
-
 
 		  					</div><!-- main_section div end-->	
 
