@@ -197,7 +197,8 @@
 		  						</div><!-- sub_section 2 div end-->
 
 
-		  					
+		  						<div class="sub_section-3">
+
 		  							<li>Accessary Store</l1>
 		  							<li>Game Store</li>
 		  							<li>Broker Store</li>
@@ -213,6 +214,9 @@
 		  							<li>Cookie Shop</li>
 		  							<li>Stationary Store</li>
 		  							<li>Product Landing Page</li>
+
+		  						</div><!-- sub-3 div end-->
+
 
 
 		  							
