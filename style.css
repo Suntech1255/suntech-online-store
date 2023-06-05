@@ -117,6 +117,7 @@ header .nav-button span
 	background:linear-gradient(red,royalblue);
 	min-height:70vh;
 	padding:30px;
+	width:300px;
 
 
 }
@@ -144,6 +145,81 @@ header .nav-button span
 }
 
 
+.sub_section-3
+{
+	background: yellow;
+	display:flex;
+	margin-left: 10px;
+	margin:5px 7px 5px 7px;
+	height:10px;
+	box-shadow: 1px 2px 1px 2px rgba(0,0,0.2);
+
+	
+}
+
+.span_1
+{
+	background: darkblue;
+	height: 30px;
+	margin:20px;
+	padding:50px;
+	width:180%;
+	margin-right: 30px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 2px 3px rgba(0,0,0.2);
+
+
+}
+
+.span_1 :focus
+
+{
+	transition: 2s;
+	margin:10px;
+}
+
+
+.span_2
+{
+	background: darkblue;
+	height: 30px;
+	margin:20px;
+	padding:50px;
+	margin-right: 30px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 2px 3px rgba(0,0,0.2);
+
+}
+
+
+
+.span_2 :focus
+
+{
+	transition: 2s;
+	margin:10px;
+}
+
+
+.span_3
+{
+	background: darkblue;
+	height: 30px;
+	margin:20px;
+	padding:50px;
+	margin-right: 30px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 2px 3px rgba(0,0,0.2);
+
+}
+
+
+.span_3 :focus
+
+{
+	transition: 2s;
+	margin:10px;
+}
 
 
 .image-1 img 

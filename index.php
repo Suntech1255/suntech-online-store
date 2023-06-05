@@ -171,11 +171,11 @@
 
 		  					
 
-		  						</div>
+		  						 </div><!-- sub_1  div end-->
 
 
 
-		  			<div class="section-2">
+		  					<div class="section-2">
 
 		  								
 		  						<div class="sub_section-2">			
@@ -194,30 +194,40 @@
 
 		  									<img src="./image/bag.jpg">
 		  								</div>
-		  						</div>
+		  						</div><!-- sub_section 2 div end-->
 
 
 		  						<div class="sub_section-3">
 
-		  							<span>1</span>
-		  							<span>2</span>
-		  							<span>3</span>
+		  							<div class="span_1">1</div>
+		  							<div class="span_2">2</div>
+		  							<div class="span_3">3</div>
+
 		  					
 
-		  						</div>
+		  						</div><!-- sub-3 div end-->
+		  							<img style="height: 100px;" src="./image/cream.jpg">
+
+		  				</div><!-- section_2 div end-->
 
 
+		  					</div><!-- main_section div end-->	
+
+
+
+
+
+		  		</div><!-- site content div end-->
+
+
+		  						
+
+
+
+
+		  						
 
 		  			</div>
-
-
-
-
-
-
-		  						</div>
-
-		  				</div>
 
 
 
