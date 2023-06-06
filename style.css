@@ -191,6 +191,8 @@ header .nav-button span
 
 }
 
+/*.sub_section-3 styling starts here */
+
 .sub_section-2 
 {
 	background:linear-gradient(red,royalblue);	
@@ -201,6 +203,8 @@ header .nav-button span
 
 }
 
+/*.sub_section-2 li styling starts here */
+
 .sub_section-2 li 
 {
 	color:white;
@@ -209,6 +213,7 @@ header .nav-button span
 
 }
 
+/* .sub_section-3 styling starts here */
 
 .sub_section-3
 {
@@ -224,6 +229,8 @@ header .nav-button span
 	opacity: 0.9;
 }
 
+/* .sub_section-3 img styling starts here */
+
 .sub_section-3 img
 {
 	
@@ -232,7 +239,7 @@ header .nav-button span
 
 }
 
-
+/* .image-1 img styling starts here */
 
 .image-1 img 
 {
@@ -245,9 +252,7 @@ header .nav-button span
 	z-index: 100;
 }
 
-
-
-
+/* section two styling starts here */
 
 .section-2
 {
@@ -269,5 +274,4 @@ footer
 
 }
 
-@media only screen and (max-width: 800px) {
-/* CSS rules for mobile devices */
+
