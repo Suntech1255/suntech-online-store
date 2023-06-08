@@ -184,9 +184,9 @@ bor
 
 		  						<div style="margin-top: 15px;margin-left: 10px;"class="section_4">
 
-		  							<i><b><p style="color:red;font-size:30px;">New Template</p></b></i>
+		  							
 		  							<br>
-		  							<a style="font-size:40px;color:lime;">make over 4,000$ in one month buy selling your Template</a>
+		  							<b><i><a style="font-size:30px;color:yellow;">make over 4,000$ in one month buy selling your Template</a></i></b>
 		  							<br>
 		  							<br>
 		  							<br>
