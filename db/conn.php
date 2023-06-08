@@ -1,4 +1,5 @@
-<?php
+
+<?php 
 
 session_start();
 
@@ -19,10 +20,7 @@ else
 }
 
 
-
-
-
-
-
-
 ?>
+
+
+
