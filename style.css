@@ -245,9 +245,14 @@ header .nav-button span
 }
 
 
+.sub_section-3 .section_4
+{
+	margin-top:20px;
+}
+
 .section_4
 {
-	margin-top: 20px;
+	color:white;
 }
 
 /* section two styling starts here */

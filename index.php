@@ -16,7 +16,7 @@
 	background:darkblue;
 	min-height: 100vh;
 	text-align: center;
-	transition: 2s;
+	transition: 1s;
 	width:10%;
 	margin-top:50px;
 	position:fixed;
@@ -39,15 +39,12 @@ bor
 	padding:20px;	
 	color:white;
 }
-.side-nav .links a:hover
-{
-	background: red;
-	padding:5px;
-}
+
 
 .side-nav .links a:hover
 {
 	color:yellow;
+
 }
 
 .Product
@@ -61,6 +58,13 @@ bor
 	border-radius: 5px;
 }
 /* styling side-nav ends here*/
+
+
+.scetion_4 button:hover
+{
+	background:yellow;
+
+}
 
 	</style>
 
@@ -175,13 +179,34 @@ bor
 		  								<div class="image-1">
 											<img src="./image/bag.jpg">
 		  								</div>
-		  						</div><!-- sub_section 2 div end-->
+		  						</div><!-- sub_section 2 div end-->                                                                                                                                                                                                                                                                                                   
 		  					<div class="sub_section-3">
 
-		  						<p>New Template</p>
-		  						<a>make over 4,000$ in one month buy selling your Template</a>
-		  						<br>
-		  						<a>make over 4,000$ in one month buy selling your Template</a>
+		  						<div style="margin-top: 15px;margin-left: 10px;"class="section_4">
+
+		  							<i><b><p style="color:red;font-size:30px;">New Template</p></b></i>
+		  							<br>
+		  							<a style="font-size:40px;color:lime;">make over 4,000$ in one month buy selling your Template</a>
+		  							<br>
+		  							<br>
+		  							<br>
+		  							<button style="padding:10px;background:red;cursor:pointer;color:white;outline:none;">Shop Now</button>
+
+		  							<br>
+		  							<br>
+		  							<br>
+		  							<br>
+
+		  							<div class="section_5" style="background: lime;width:250px;padding:10px;border-radius:10px;box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.3);">
+
+		  							<a style="color:red">WEEKLY SALES</a>
+		  							<br>
+		  							<br>
+		  							<i><a style="font-size: 30px;color:white">saving up to 50% <br>of the online-store</a></i>
+
+		  						</div>
+
+		  						</div>
 
 
 		  					</div>
@@ -216,7 +241,6 @@ bor
 			{
 			var side_nav= document.querySelector(".side-nav").style.left="0";
 
-
 			open=true;
 
 			}
@@ -238,7 +262,7 @@ bor
 		{
 			if(drop_down==false)
 			{
-			var side_nav= document.querySelector(".drop_down").style.display="none";
+			var up_nav= document.querySelector(".drop_down").style.display="none";
 
 
 			drop_down=true;
@@ -246,7 +270,7 @@ bor
 			}
 			else if (drop_down==true) 
 			{
-				var side_nav= document.querySelector(".drop_down").style.display="block";
+				var up_nav= document.querySelector(".drop_down").style.display="block";
 				drop_down=false;
 			}
 
