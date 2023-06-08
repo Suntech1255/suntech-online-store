@@ -11,7 +11,7 @@
 <body>
   <header>
     <nav>
-      <div class="logo">FREEMAN FESTUS</div>
+      <div class="logo">FREEMAN Freman</div>
       <ul class="navbar">
         <li><a href="#">PROFILE</a></li>
         <li class="dropdown">
