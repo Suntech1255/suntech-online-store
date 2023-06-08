@@ -21,6 +21,7 @@
 	margin-top:50px;
 	position:fixed;
 	left:-10%;
+bor
 	
 }
 .side-nav a 
@@ -91,7 +92,7 @@
 
    					</div>
    						<!-- styling fontawesome--->
-   							<i style="font-size:30px;"  class="fa fa-user fa-lg" style="color: #007bff;"></i>
+   							<i style="font-size:20px;"  class="fa fa-user fa-lg" style="color: #007bff;"></i>
    						<!-- styling fontawesome--->
    							<i style="font-size:25px;"class="fa fa-bell"></i>
 
@@ -177,6 +178,11 @@
 		  						</div><!-- sub_section 2 div end-->
 		  					<div class="sub_section-3">
 
+		  						<p>New Template</p>
+		  						<a>make over 4,000$ in one month buy selling your Template</a>
+		  						<br>
+		  						<a>make over 4,000$ in one month buy selling your Template</a>
+
 
 		  					</div>
 
@@ -250,8 +256,9 @@
 </script>
 
    <footer>
-   	<h3 style="color:white;"> Copyright©2023 Suntech global,All right are reserve</h3>
-   	<h4 style="color:white">Terms and Condition</h4>
+   <h3 style="color:white;"> Copyright©2023 Suntech global,All right are reserve</h3>
+   <h4 style="color:white">Terms and Condition</h4>
+
    </footer>
 
 </body>

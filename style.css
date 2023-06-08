@@ -1,4 +1,4 @@
-*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       *
 {
 	padding:0;
 	margin:0;
@@ -191,8 +191,6 @@ header .nav-button span
 
 }
 
-/*.sub_section-3 styling starts here */
-
 .sub_section-2 
 {
 	background:linear-gradient(red,royalblue);	
@@ -203,8 +201,6 @@ header .nav-button span
 
 }
 
-/*.sub_section-2 li styling starts here */
-
 .sub_section-2 li 
 {
 	color:white;
@@ -213,12 +209,10 @@ header .nav-button span
 
 }
 
-/* .sub_section-3 styling starts here */
 
 .sub_section-3
 {
 
-	
 	margin-left: 20px;	
 	box-shadow: 1px 2px 1px 2px rgba(0,0,0.2);
 	width:40vw;
@@ -229,8 +223,6 @@ header .nav-button span
 	opacity: 0.9;
 }
 
-/* .sub_section-3 img styling starts here */
-
 .sub_section-3 img
 {
 	
@@ -239,7 +231,7 @@ header .nav-button span
 
 }
 
-/* .image-1 img styling starts here */
+/* .im styling starts here */
 
 .image-1 img 
 {
@@ -249,7 +241,13 @@ header .nav-button span
 	cursor: pointer;
 	border:solid black 1px;
 	height:150px
-	z-index: 100;
+	
+}
+
+
+.section_4
+{
+	margin-top: 20px;
 }
 
 /* section two styling starts here */
@@ -272,6 +270,5 @@ footer
 	padding:10px;
 	text-align: center;
 
+
 }
-
-
