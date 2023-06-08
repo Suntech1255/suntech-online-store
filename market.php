@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>MARKET</title>
-	<link rel="stylesheet" type="text/css" href="./image/market1.css">
+	<link rel="stylesheet" type="text/css" href="./css-style/market1.css">
 	<style type="text/css">
-		
+		button{color:;}
 	</style>
 </head>
 <body>
@@ -198,17 +198,18 @@
      <!--card end -->
  	</div>         	
  </section>
+
+ <div class="loading">
+
+ 	<button class="loadmore"> Load More</button>
+</div>
  
-
-
-
-    <footer > 
+    <div class="footer">
+    	<footer > 
     <h3> Copyright &copy; 2023 ogagapeter webpage</h3>
 
    </footer>
- 
-
-
+    </div>
 
 
 </body>
