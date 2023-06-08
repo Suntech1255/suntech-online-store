@@ -1,21 +1,26 @@
+
 <?php 
 
 session_start();
 
 $SERVER ='localhost';
-$USERNAME = 'root';
+$USERNAME='root';
 $PASSWORD='';
-$DATABASE ='online_store';
+$DATABASE='online_store';
 
+$conn=mysqli_connect($SERVER,$USERNAME,$PASSWORD,$DATABASE);
 
-$conn = mysqli_connect($SERVER,$USERNAME,$PASSWORD,$DATABASE);
-
-if (mysqli_connect_error()) {
-
-	echo "Cnnection error";
-}else{
-    // echo"connection succesful";
+if(mysqli_connect_error())
+{
+	echo "connection error";
+}
+else
+{
+	echo "connection successful";
 }
 
 
- ?>
+?>
+
+
+
