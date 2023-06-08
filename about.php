@@ -1,28 +1,28 @@
 <html>
-
-<body>
+    <head>
+        <title>ABOUT US</title>
+        <link rel="stylesheet" type="text/css" href="css-style/about.css">
+    </head>
+    
+    <body>
 <div class="about">
        <h2>ABOUT US<h2> 
-       <h3>Discover More About SUNTECH-ONLINE-STORE</h3
+       <h3>Discover More About SUNTECH-ONLINE-STORE</h3>
        
 </div>
 
 <div class="container">
 
 <img src="PHOTOS/BAG R.jpg">
-      <big><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
-        repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
-        repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.</big></p>
+      <big><p>The great thing about the internet isn't that you can reconnect with old friends or stay
+          up to date with developing world events or send pictures of newborns immediately around the world.
+          it is simply that you can log on to Suntech-online-store from anywhere and order fresh suitable clothes,
+        shoes, bags, cream for all skin types, skin care products, glasses, makeup bags, studio bags, office chairs of all types and 
+        colors.</p></big>
         
-       <big><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
-        repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
-        repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.</big></p>
+       <big><p>Delivering excitment innovation and freshness, Suntech-online-store is an E-Commerce channel that promises to
+           offer an exquisite range of lifestyle products. Suntech-online-store
+       </p></big>
 
         <div class="container">
         <img src="PHOTOS/SUIT.jpg">
@@ -33,75 +33,66 @@
         doloribus necessitatibus. Error mollitia quas incidunt.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
         repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.</big></p>
-
+        doloribus necessitatibus. Error mollitia quas incidunt.</p></big>
         
-        <center><a href="#" class="btn">CONTACT US</a></center>
+        <center><a href="" class="btn">CONTACT US</a></center>
+</div>
 
-        
-    
+<div class="team">
+    <h3>TEAMS</h3>
+    <div class="card">
+       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <h1>Peter<h1>
+           <a href=""class="btn">CONTACT</a>
+ </div>
+</div>
+
+<div class="team">
+    <div class="card">
+       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <h1>Tega<h1>
+           <a href=""class="btn">CONTACT</a>
+ </div>
+</div>
+
+<div class="team">
+     <div class="card">
+       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <h1>Edward<h1>
+           <a href=""class="btn">CONTACT</a>
+ </div>
+</div>
+
+<div class="team">
+     <div class="card">
+       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <h1>Festus<h1>
+           <a href=""class="btn">CONTACT</a>
+ </div>
+</div>
+
+<div class="team">
+     <div class="card">
+       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <h1>David<h1>
+           <a href=""class="btn">CONTACT</a>
+ </div>
+</div>
+
+<div class="team">
+     <div class="card">
+       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <h1>Rejoice<h1>
+           <a href=""class="btn">CONTACT</a>
+ </div>
 </div>
 
 
 
-<style>
-     body
-     {
-        display:inine-block;
-        color:white;
-    }
-    
-    
-    img
-    {
-        float:right;
-        width: 300px;
-        height:200px;
-      
-    }
-    body{
-        background-image:linear-gradient(black,skyblue);
-    
-        
-    }
-    .about  h2{
-        text-align:center;
-        color:yellow;
-        font-family:arial;
-        font-size:30px;
-        
-    }
-    .about h3{
-        text-align:center;
-        color:red;
-        font-family:arial;
-        font-size:30px;
- }
- .btn{
-     font-family:arial;
-     font-size:18px;
-     font-weight:bold;
-     background-color:whitesmoke;
-     width:160px;
-     padding:10px;
-     text-align:center;
-     text-decoration:none;
-     color:black;
-     border-radius:5px;
-     cursor:pointer;
-     box-shadow:0 0 10px rgba(0,0,0,0.1);
-    }
 
-    
-        
-    
 
-    
-
-        
-    
-
-    </style>
 
 </body>
 </html>
+
+
