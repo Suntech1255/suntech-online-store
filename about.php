@@ -21,21 +21,21 @@
         colors.</p></big>
         
        <big><p>Delivering excitment innovation and freshness, Suntech-online-store is an E-Commerce channel that promises to
-           offer an exquisite range of lifestyle products. Suntech-online-store
-       </p></big>
+           offer an exquisite range of lifestyle products. Suntech-online-store brings customers the lastest fashionable clothing
+           accessories, home decor selections and style of living asssortment. Not just grown-ups there's an abudance of collections
+           for kids as well. We strive to make your shopping hassle-free with our authenticated prices and timely delivery services
+           with heart winning offers.</p></big>
 
         <div class="container">
         <img src="PHOTOS/SUIT.jpg">
         </div>
 
-        <big><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
-        repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae quasi aut, laboriosam 
-        repudiandae quia magnam alias libero temporibus inventore eveniet ratione at exercitationem 
-        doloribus necessitatibus. Error mollitia quas incidunt.</p></big>
+        <big><p>Bringing you a user-friendly experience when looking for your favourite outfit. Our designs, cleverly inspired
+            by a perfect blend of them, come alive through our products, which are ideal additions to your fashion, home,office, or
+            for gifting. Give us a chance to be your instant online fashion
+            destination.Suntech-online-store.com</p></big>
         
-        <center><a href="" class="btn">CONTACT US</a></center>
+        <center><a href="#" class="btn">CONTACT US</a></center>
 </div>
 
 <div class="team">
@@ -43,7 +43,7 @@
     <div class="card">
        <img src="PHOTOS/MY.jpg" alt="PETER">
        <h1>Peter<h1>
-           <a href=""class="btn">CONTACT</a>
+           <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
@@ -51,7 +51,7 @@
     <div class="card">
        <img src="PHOTOS/MY.jpg" alt="PETER">
        <h1>Tega<h1>
-           <a href=""class="btn">CONTACT</a>
+           <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
@@ -59,7 +59,7 @@
      <div class="card">
        <img src="PHOTOS/MY.jpg" alt="PETER">
        <h1>Edward<h1>
-           <a href=""class="btn">CONTACT</a>
+           <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
@@ -67,7 +67,7 @@
      <div class="card">
        <img src="PHOTOS/MY.jpg" alt="PETER">
        <h1>Festus<h1>
-           <a href=""class="btn">CONTACT</a>
+           <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
@@ -75,7 +75,7 @@
      <div class="card">
        <img src="PHOTOS/MY.jpg" alt="PETER">
        <h1>David<h1>
-           <a href=""class="btn">CONTACT</a>
+           <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
@@ -83,7 +83,7 @@
      <div class="card">
        <img src="PHOTOS/MY.jpg" alt="PETER">
        <h1>Rejoice<h1>
-           <a href=""class="btn">CONTACT</a>
+           <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
