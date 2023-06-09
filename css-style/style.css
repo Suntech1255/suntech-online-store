@@ -2,17 +2,23 @@
 	padding:0;
 	margin:0;
 }
+body
+{
+	/*background-color: blue;*/
+}
 
 header
 {
-	background-color: royalblue;
+	background-color:darkblue;
 	display: flex;
-	padding: 10px;
+	padding: 7px;
+	box-shadow: 5px 7px 5px 7px rgba(0, 0, 0, 0.3);
 }
 
 header h1
 {
 	font-size: 20px;
+	color:white;
 }
 
 
@@ -25,9 +31,95 @@ header input
 }
 
 
+ .fa-search
+{
+	color:royalblue;
+	margin-bottom: auto;
+	margin-top: auto;
+	background: white;
+	padding:5px;
+	border-radius: 10px;
+	cursor:pointer;
+	border:solid black 1px;
+}
+
+
 header .products
 {
 	background:white;
 	width:15%;
 	margin-left: 40px;
+	border-radius: 10px;
+	display: flex;
+	padding:2px;
+
+}
+
+header .products h3
+{
+	opacity:0.3;
+	margin-left: 10px;
+}
+
+ul
+{
+	color:red;
+	position: fixed;
+	display: none;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+ul li{
+	margin-top: 10px;
+}
+
+header .products button
+{
+	margin-left: auto;
+	cursor:pointer;
+}
+
+.fa-user
+{
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+	color:lightcyan;
+}
+
+.fa-bell
+{
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+	color:lightgreen;
+}
+
+nav
+{
+	margin-top: 20px;
+	text-align: center;
+	box-shadow: 5px 7px  5px 7px rgba(0, 0, 0, 0.3);
+
+ 	
+}
+
+nav a
+{
+	margin:20px 30px 20px 30px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.wrapper
+{
+	min-height: 100vh;
+}
+footer
+{
+	background: seagreen;
+	text-align: center;
+	color:white;
+	padding:5px;
 }
