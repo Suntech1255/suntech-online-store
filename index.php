@@ -10,34 +10,11 @@
 </head>
 <body>
 
-			<header>
+	<header></header>
 
-				<i><h1>Suntech-eCommerce</h1></i>
+		<?php include("include/head.php") ?>
 
-					<input type="search" placeholder="search" name="search"><i class="fa fa-search"></i>
-
-
-   					<i style="font-size:20px;"  class="fa fa-user fa-lg" style="color: #007bff;"></i>
-   						<!-- styling fontawesome--->
-   					<i style="font-size:25px;"class="fa fa-bell"></i>
-
-
-				<div class="products">
-
-					<h3>product</h3>
-
-					<ul class="drop_down">
-						<b><li>Pro-Version</li></b>	
-						<b><li>Cashweb</li></b>
-						<b><li>Blockchain</li></b>	
-						<b><li>Amazone</li></b>	
-
-   				</ul>
-
-   					<button  style="border-radius:360px;" onclick="myDropdown()">down</button>
-
-				</div>		
-			</header>
+	</header>
 
 			<nav>
 
@@ -46,27 +23,58 @@
    		</nav>
 		<div class="wrapper">
 
+				<div class="main_section">
+							<div class="sub_section-1">
+		  							<li>Accessary Store</l1>
+		  							<li>Game Store</li>
+		  							<li>Broker Store</li>
+		  							<li>Portfolio Store</li>
+		  							<li>Marketing Store</li>
+		  							<li>Wellness Store</li>
+		  							<li>Bookstore</li>
+		  							<li>Subscription Box Company</li>
+		  							<li>Blockchain </li>
+		  							<li>Boots</li>
+		  							<li>Zmstrategy Trading Bots</li>
+		  							<li>Ceramic Studio</li>
+		  							<li>Cookie Shop</li>
+		  							<li>Stationary Store</li>
+		  							<li>Product Landing Page</li>
+		  					 </div><!-- sub_1  div end-->
 
 
 
-					
+		  					 <div class="sub_section-2">			
+		  							<li>Pet Supply Store</l1>
+		  							<li>Art & Craft Store</li>
+		  							<li>Toy Store</li>
+		  							<li>Electronic Store</li>
+		  							<li>Beauty Store</li>
+		  							<li>Jewelry Store </li>
+		  							<li>Clothing Store</li>
+		  							<li>Stationery Store</li>
+		  			
+		  								<div class="image-1">
+											<img src="./image/bag.jpg">
+		  								</div>
+		  						</div><!-- sub_section 2 div end-->
+
+		  		<div class="section_2">
 
 
 
 
 
+		  		</div>
+                                                                                                                                                                                                                                                                                                   
+		  				
 
+
+
+
+				</div><!--main_section div ends here -->
 
 		</div> <!-- wrapper div ends here -->
-
-
-
-
-	
-
-
-
-
 
 	<script>
 		
@@ -94,13 +102,9 @@
 
 </script>
 
-<footer>
-	
-	<h3> Copyright©2023 Suntech global,All right are reserve</h3>
-   <h4 >Terms and Condition</h4>
 
+<?php include("include/footer.php") ?>
 
-</footer>
 
 </body>
 </html>

@@ -13,6 +13,8 @@ header
 	display: flex;
 	padding: 7px;
 	box-shadow: 5px 7px 5px 7px rgba(0, 0, 0, 0.3);
+	
+
 }
 
 header h1
@@ -59,19 +61,36 @@ header .products h3
 {
 	opacity:0.3;
 	margin-left: 10px;
+	
 }
 
 ul
 {
-	color:red;
+	color:white;
 	position: fixed;
 	display: none;
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-left: 20px;
+	
+
 }
 
 ul li{
 	margin-top: 10px;
+	background: darkblue;
+	margin-top: 10px;
+	background: darkblue;
+	padding:5px;
+	border-bottom-right-radius: 15px;
+	cursor: pointer;
+}
+
+ul :hover
+{
+	padding:15px;
+	transition: 1s;
+	margin: 20px;
+	
 }
 
 header .products button
@@ -93,7 +112,7 @@ header .products button
 	margin-bottom: auto;
 	margin-top: auto;
 	margin-left: auto;
-	color:lightgreen;
+	color: greenyellow;
 }
 
 nav
@@ -101,6 +120,8 @@ nav
 	margin-top: 20px;
 	text-align: center;
 	box-shadow: 5px 7px  5px 7px rgba(0, 0, 0, 0.3);
+
+
 
  	
 }
@@ -110,15 +131,114 @@ nav a
 	margin:20px 30px 20px 30px;
 	font-size: 20px;
 	text-decoration: none;
+
+
+}
+
+nav a :hover
+{
+	color:red;
+
+}
+
+nav a :hover
+{
+	transition: 1s;	
+	width:2%;
+	
 }
 
 .wrapper
 {
 	min-height: 100vh;
+	background: dimgrey;
 }
+
+.main_section
+{
+	margin:80px;
+	border-radius: 15px;
+	display:flex;
+	margin-top: 10px;
+	box-shadow:5px 7px  5px 7px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.sub_section-1
+{
+	background:linear-gradient(blueviolet,blue);
+	padding:20px;
+	margin-top: 10px;
+	border-radius: 15px;
+	box-shadow: 4px 10px rgba(0, 0, 0, 1.0);
+}
+
+
+
+
+.sub_section-1 li{
+	color:white;
+	margin-top: 10px;
+}
+
+.sub_section-2
+{
+	background:linear-gradient(blueviolet,blue);
+	padding:30px;
+	margin-top: 10px;
+	border-radius: 15px;
+	box-shadow: 4px 10px rgba(0, 0, 0, 1.0);
+	margin-left: 20px;
+}
+
+.image-1:hover
+{
+
+	transition: 1s;
+	padding:10px;
+
+}
+
+
+.sub_section-2 li
+{
+	color:white;
+	margin-top:10px;
+}
+
+
+.image-1 img
+{
+	border-radius: 20px;
+	height: 150px;
+	margin-top: 40px;
+}
+
+
+
+
+.section_2
+{
+	background-image: url(../image/man.jpeg);
+	margin-left: 40px;
+	margin-top: 10px;
+	width:60%;
+	box-shadow:5px 7px  5px 7px rgba(0, 0, 0, 0.3);
+	border-radius: 15px;
+	background-size: cover;
+	
+
+	
+
+
+}
+
+
+
 footer
 {
-	background: seagreen;
+	background: black;
 	text-align: center;
 	color:white;
 	padding:5px;
