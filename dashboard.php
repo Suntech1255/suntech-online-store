@@ -5,38 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="css-style/styless.css">
-  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styless.css">
+
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo">FREEMAN Freman</div>
+      <div class="logo">FREEMAN FREEMAN</div>
       <ul class="navbar">
-        <li><a href="#">PROFILE</a></li>
-        <li class="dropdown">
-          <a href="#">MENU</a>
-
-
-          <div class="dropdown-content">
-            <a href="#">ADD CART</a>
-            <a href="#">CHECK HISTORY</a>
-          </div>
-        </li>
+        <li><a href="#">PROFILE</a></li>    
       </ul>
     </nav>
+
+
+
+<div>
+    <button id="openNav" class="dropdown">menu</button>
+    </div>
+  <div id="sideNav" class="dropdown-content">
+    <a href="index.php">Home</a>
+    <a href="about.php">About</a>
+  </div>
+  
+  <script>
+document.getElementById("openNav").addEventListener("click", function() {
+  document.getElementById("sideNav").style.display = "block";
+});
+
+document.addEventListener("click", function(event) {
+  var sideNav = document.getElementById("sideNav");
+  var openNavButton = document.getElementById("openNav");
+  
+  // Check if the clicked element is outside of the sideNav and the openNavButton
+  if (!sideNav.contains(event.target) && event.target !== openNavButton) {
+    sideNav.style.display = "none";
+  }
+});
+
+
+
+
+  </script>
   </header>
   
-  <div class="content">
-    <h2>Account Balance</h2>
-    <div class="balance">$1000.00</div>
-    <h2>Transaction History</h2>
-    <ul class="transactions">
-      <li>Transaction 1</li>
-      <li>Transaction 2</li>
-      <li>Transaction 3</li>
-    </ul>
-    
-  </div>
+
+
+
+
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
 </body>
 </html>
