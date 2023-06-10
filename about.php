@@ -41,7 +41,7 @@
 <div class="team">
     <h3>TEAMS</h3>
     <div class="card">
-       <img src="PHOTOS/MY.jpg" alt="PETER">
+       <img src="PHOTOS/PETER.jpg" alt="PETER">
        <h1>Peter<h1>
            <a href="#"class="btn">CONTACT</a>
  </div>
