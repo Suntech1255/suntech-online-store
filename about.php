@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <title>ABOUT US</title>
         <link rel="stylesheet" type="text/css" href="css-style/about.css">
@@ -41,14 +41,10 @@
 <div class="team">
     <h3>TEAMS</h3>
     <div class="card">
-<<<<<<< HEAD
-       <img src="PHOTOS/PETER.jpg" alt="PETER">
-       <h1>Peter<h1>
-=======
-       <img src="PHOTOS/TEACH.jpg" alt="SUNTECH" style="height:300px; width:300px;">
+    <img src="PHOTOS/TEACH.jpg" alt="SUNTECH" style="height:300px; width:300px;">
        <h1>Suntech</h1>
        <h3>C.E.O</h3>
->>>>>>> 9e9d8fa730cdc896d72165a0af196db895286419
+
            <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
