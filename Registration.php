@@ -9,61 +9,63 @@
     <style>
         *
         {
-        pading:0;//this is a padding
+        pading:0;
         margin: 0;
 
         }
 body
 {
-  background:whitesmoke;
+  background:skyblue;
   font-family:arial;
-
-}
-.section
-{
-  background:royalblue;
-  padding:15px;
-  width:auto;
-  margin:1px;
-  text-align: center;
-  color:white;
-
 }
 a
 {
-    text-decoration: none;
+  text-decoration: none;  
 }
+
 form
 {
-background:skyblue;
-padding:40px;
+background:linear-gradient(white,skyblue);
+padding:30px;
 margin:auto;
-max-width:800px;
-height:520px;
+display:block;
+max-width:420px;
+height:620px;
 border-radius:10px;
-margin-top:40px; 
-text-align: center;
-box-shadow:1px 2px 3px ;
+margin-top:18px; 
+box-shadow:2px 4px 6px ;
 }
 form input , textarea
 {
-    display: block;
+  background:gainsboro;  
+    display:block;
    padding:15px;
-   margin:auto;
-   width:70%;
+   width:400px;
+   border-radius: 25px;
+   box-shadow: 1px ;
+   outline:none;
+   border: solid white 0px;
 }
 button
 {
  cursor: pointer;
- color:red;
- 
- width:100px;   
+ color:blueviolet;
+ height:40px;
+ width:100px; 
+ border-radius: 25px;
+  box-shadow:1px 2px ; 
+  border:none; 
 }
 label
 {
-    color:white;
+    color:slateblue;
 }
-
+.but
+{
+  cursor:pointer;  
+  color:slateblue;
+  text-decoration:underline;  
+}
 
 
 
@@ -72,54 +74,43 @@ label
 </head>
 <body>
 
-<div class="section">
-
-   <marquee><h1> welcome too my page</h1></marquee>
-
-   <a href="about.html">HOME</a>
-   <a href="about.html">LOGIN</a>
-   <a href="about.html">REGISTER</a>
-   <a href="about.html">FAQ</a>
-
-</div>  
+<?php include("include/top-nav.php") ?> 
 
 
 <form>
 
-        <h1>REGISTRATION FORM</h1>
+        <center><h1 style="color:blueviolet;">REGISTRATION FORM</h1></center>
            <br>
-    <label>NAME</label>
-    <br>
-    <br>
-<input type="text" name="name" placeholder="name">
+    <label>FIRST NAME</label>
 
-      <br>
-<label>EMAIL</label>
-    <br>
+<input type="text" name="name" placeholder="first name">
+           <br>
+   <label>LAST NAME</label>
+
+<input type="text" name="name" placeholder="last name">         
+       <br>
+   <label>DATE OF BIRTH</label>
+   
+<input type="date" name="DOB" placeholder="">
+     <br>         
+<label>EMAIL ADDRESS</label>
     <br>
 <input type="email" name="email" placeholder="email">
        <br>
 <label>PASSWORD</label>
     <br>
-    <br>
-<input type="pass" name="pass" placeholder="password">
+<input type="pass" name="pass" placeholder="pass">
      <br>
-<textarea>optional</textarea>
-  <br>
-<button>submit</button>
+<label>CONFIRM PASSWORD</label>
 
+<input type="pass" name="pass" placeholder="confirm pass">
+  <br>
+<center><button>submit</button></center>
+  <br>
+  <span class="but">Already registered?</span>
+  <a href="login.php" class="but">Sign In</a>
 
 </form>
-
-
-
-
-
-
-
-
-
-
 
 
 

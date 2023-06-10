@@ -15,40 +15,54 @@
         }
 body
 {
-  background:whitesmoke;
+  background:skyblue;
   font-family:arial;
 
 }
 
 form
 {
-background:skyblue;
+background:linear-gradient(white,skyblue);
 padding:40px;
 margin:auto;
-max-width:600px;
-height:400px;
+display:block;
+max-width:420px;
+height:370px;
 border-radius:10px;
-margin-top:40px; 
-text-align: center;
-box-shadow:1px 2px 3px ;
+margin-top:50px; 
+box-shadow:2px 4px 6px ;
 }
 form input , textarea
 {
+    background:gainsboro;
     display: block;
    padding:15px;
    margin:auto;
-   width:70%;
+   width:400px;
+    border-radius: 25px;
+   box-shadow: 1px ;
+   outline:none;
+   border: solid white 0px;
 }
 button
 {
  cursor: pointer;
- color:red;
- 
- width:100px;   
+ color:blueviolet;
+ height:40px;
+ width:100px; 
+ border-radius: 25px;
+  box-shadow:1px 2px ; 
+  border:none;   
 }
 label
 {
-    color:white;
+    color:slateblue;
+}
+.but
+{
+  cursor:pointer;  
+  color:slateblue;
+  text-decoration:underline;  
 }
 
 
@@ -62,19 +76,20 @@ label
 
 <form>
 
-        <h1>LOGIN FORM</h1>
+        <center><h1 style="color:blueviolet;">LOGIN FORM</h1></center>
            <br>
-<label>USERNAME</label>
-    <br>
-    <br>
-<input type="user" name="user" placeholder="user">
+<label>EMAIL ADDRESS</label>
+        <br>
+<input type="email" name="email" placeholder="email">
        <br>
 <label>PASSWORD</label>
-    <br>
-    <br>
+       <br>
 <input type="pass" name="pass" placeholder="password">
      <br>
-<button>submit</button>
+<center><button>submit</button></center>
+     <br>
+ <span class="but">Don't have an account?</span>
+ <a href="Registration.php" class="but">Sign up</span>   
 
 
 </form>
