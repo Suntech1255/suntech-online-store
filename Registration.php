@@ -4,122 +4,48 @@
     <title>MY PAGE</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css-style/Registration.css">
     
-    <style>
-        *
-        {
-        pading:0;//this is a padding
-        margin: 0;
 
-        }
-body
-{
-  background:whitesmoke;
-  font-family:arial;
-
-}
-.section
-{
-  background:royalblue;
-  padding:15px;
-  width:auto;
-  margin:1px;
-  text-align: center;
-  color:white;
-
-}
-a
-{
-    text-decoration: none;
-}
-form
-{
-background:skyblue;
-padding:40px;
-margin:auto;
-max-width:800px;
-height:520px;
-border-radius:10px;
-margin-top:40px; 
-text-align: center;
-box-shadow:1px 2px 3px ;
-}
-form input , textarea
-{
-    display: block;
-   padding:15px;
-   margin:auto;
-   width:70%;
-}
-button
-{
- cursor: pointer;
- color:red;
- 
- width:100px;   
-}
-label
-{
-    color:white;
-}
-
-
-
-
-    </style>
 
 </head>
-<body>
-
-<div class="section">
-
-   <marquee><h1> welcome too my page</h1></marquee>
-
-   <a href="about.html">HOME</a>
-   <a href="about.html">LOGIN</a>
-   <a href="about.html">REGISTER</a>
-   <a href="about.html">FAQ</a>
-
-</div>  
+<body> 
 
 
 <form>
 
-        <h1>REGISTRATION FORM</h1>
+        <center><h1 style="color:blueviolet;">REGISTRATION FORM</h1></center>
            <br>
-    <label>NAME</label>
-    <br>
-    <br>
-<input type="text" name="name" placeholder="name">
+    <label>FIRST NAME</label>
 
-      <br>
-<label>EMAIL</label>
-    <br>
+<input type="text" name="name" placeholder="first name">
+           <br>
+   <label>LAST NAME</label>
+
+<input type="text" name="name" placeholder="last name">         
+       <br>
+   <label>DATE OF BIRTH</label>
+   
+<input type="date" name="DOB" placeholder="">
+     <br>         
+<label>EMAIL ADDRESS</label>
     <br>
 <input type="email" name="email" placeholder="email">
        <br>
 <label>PASSWORD</label>
     <br>
-    <br>
-<input type="pass" name="pass" placeholder="password">
+<input type="pass" name="pass" placeholder="pass">
      <br>
-<textarea>optional</textarea>
-  <br>
-<button>submit</button>
+<label>CONFIRM PASSWORD</label>
 
+<input type="pass" name="pass" placeholder="confirm pass">
+  <br>
+<center><button>submit</button></center>
+  <br>
+  <span class="but">Already registered?</span>
+  <a href="login.php" class="but">Sign In</a>
 
 </form>
-
-
-
-
-
-
-
-
-
-
 
 
 

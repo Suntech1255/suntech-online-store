@@ -41,51 +41,73 @@
 <div class="team">
     <h3>TEAMS</h3>
     <div class="card">
+<<<<<<< HEAD
        <img src="PHOTOS/PETER.jpg" alt="PETER">
        <h1>Peter<h1>
+=======
+       <img src="PHOTOS/TEACH.jpg" alt="SUNTECH" style="height:300px; width:300px;">
+       <h1>Suntech</h1>
+       <h3>C.E.O</h3>
+>>>>>>> 9e9d8fa730cdc896d72165a0af196db895286419
            <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
 <div class="team">
     <div class="card">
-       <img src="PHOTOS/MY.jpg" alt="PETER">
-       <h1>Tega<h1>
+       <img src="PHOTOS/RUKKY.jpg" alt="REJOICE" style="height:300px; width:300px;">
+       <h1>Rejoice</h1>
+       <h3> Manager</h3>
            <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
 <div class="team">
      <div class="card">
-       <img src="PHOTOS/MY.jpg" alt="PETER">
-       <h1>Edward<h1>
+       <img src="PHOTOS/EDWARD.jpg" alt="EDWARD" style="height:300px; width:300px;">
+       <h1>Edward</h1>
+       <h3>Custodian</h3>
            <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
 <div class="team">
      <div class="card">
-       <img src="PHOTOS/MY.jpg" alt="PETER">
-       <h1>Festus<h1>
+       <img src="PHOTOS/FESTUS.jpg" alt="FESTUS" style="height:300px; width:300px;">
+       <h1>Festus</h1>
+       <h3>Bagger</h3>
+           
            <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
 <div class="team">
      <div class="card">
-       <img src="PHOTOS/MY.jpg" alt="PETER">
-       <h1>David<h1>
-           <a href="#"class="btn">CONTACT</a>
+       <img src="PHOTOS/DAVID.jpg" alt="DAVID" style="height:300px; width:300px;">
+       <h1>David</h1>
+       <h3>Cashier</h3>
+       <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
 
 <div class="team">
      <div class="card">
-       <img src="PHOTOS/MY.jpg" alt="PETER">
-       <h1>Rejoice<h1>
-           <a href="#"class="btn">CONTACT</a>
+       <img src="PHOTOS/TEGA.jpg" alt="TEGA" style="height:300px; width:300px;">
+       <h1>Tega</h1>
+       <h3>Order clerk</h3>
+       <a href="#"class="btn">CONTACT</a>
  </div>
 </div>
+
+<div class="team">
+     <div class="card">
+       <img src="PHOTOS/PETER.jpg" alt="PETER" style="height:300px; width:300px;">
+       <h1>Peter</h1>
+       <h3>Store clerk</h3>
+       <a href="#"class="btn">CONTACT</a>
+ </div>
+</div>
+
 
 
 
