@@ -38,7 +38,7 @@
      <br>
 <label>CONFIRM PASSWORD</label>
 
-<input type="password" name="pass2" placeholder="confirm pass">
+<input type="password" name="pass2" placeholder="Confirm pass">
   <br>
 <center><button>submit</button></center>
   <br>
