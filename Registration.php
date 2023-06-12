@@ -34,11 +34,11 @@
        <br>
 <label>PASSWORD</label>
     <br>
-<input type="pass" name="pass" placeholder="pass">
+<input type="password" name="pass1" placeholder="pass">
      <br>
 <label>CONFIRM PASSWORD</label>
 
-<input type="pass" name="pass" placeholder="confirm pass">
+<input type="password" name="pass2" placeholder="confirm pass">
   <br>
 <center><button>submit</button></center>
   <br>

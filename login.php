@@ -22,7 +22,7 @@
        <br>
 <label>PASSWORD</label>
        <br>
-<input type="pass" name="pass" placeholder="password">
+<input type="password" name="pass1" placeholder="password">
      <br>
 <center><button>submit</button></center>
      <br>
