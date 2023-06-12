@@ -1,3 +1,4 @@
+<?php include("include/top-nav.php") ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +8,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/e619c875e4.js" crossorigin="anonymous"></script>	
 	<title>Online-Store</title>
+
+	<style>
+		form input
+		{
+			padding:10px;
+			outline: none;
+			border-radius: 10px;
+		}
+	</style>
 </head>
 <body>
 
@@ -66,15 +76,108 @@
 
 
 		  		</div>
-                                                                                                                                                                                                                                                                                                   
-		  				
 
 
 
 
+                                                                                                                                                                                                                                                                                                 
 				</div><!--main_section div ends here -->
 
+				<form autocomplete="off" method="POST" style=" background:linear-gradient(blue)padding:30px;text-align: center;width:30%;margin: auto;border-radius:10px;">
+		  			
+
+		  			<input type="text" placeholder="username" name="user">
+		  			<br>
+		  			<input type="email" placeholder="email" name="email">
+		  			<br>
+		  			<input type="password" placeholder="pass1" name="Enter password">
+		  			<br>
+
+		  			<input type="password" placeholder="pass2" name="Enter C-password">
+		  			<br>
+
+		  			<input type="number" placeholder="phone" name="phone">
+		  			<br> 	
+		  			<button style="cursor: pointer;" name='submit'>Register</button>
+
+		  		</form>
+
+		  		<?php
+
+		  		if(isset($_POST['submit']))
+		  		{
+		  			$userName=$_POST['user'];
+		  			$userEmail=$_POST['email'];
+		  			$pass1=$_POST['pass1'];
+		  			$pass2=$_POST['pass2'];
+		  			$phone=$_POST['phone'];
+
+
+		  			if(empty($userName))
+		  			{
+		  				echo "<script>alert('please enter username!')</script>";
+		  			}
+		  			elseif (empty($userEmail)) 
+		  			{
+		  				echo "<script>alert('please enter email!')</script>";
+		  			}
+
+		  			elseif(empty($pass1))
+
+		  			{
+		  				echo "<script>alert('please enter a password!')</script>";
+		  			}
+
+		  			elseif(empty($pass2))
+
+		  			{
+		  				echo "<script>alert('please confirm your password!')</script>";
+		  			}
+
+
+		  			elseif(empty($phone))
+
+		  			{
+		  				echo "<script>alert('please enter phone number!')</script>";
+		  			}
+
+		  			else
+		  			{
+		  				//check if password match
+		  				if($pass1 === $pass2)
+		  				{
+		  					$insert ="INSERT INTO accounts (user_name,email,pass_1,pass_2,phone) VALUES ('$userName','$userEmail','$pass1','$pass2','$phone',)";
+
+		  					$query =mysql_query($conn,$insert);
+
+		  					if($query==true)
+		  					{
+		  						echo "<script>alert('Registration successful..')</script>";
+		  					}
+		  					else
+		  					{
+		  						echo "<script>alert('Registration error()!')</script>";
+		  					}
+		  				}
+		  				else
+		  				{
+		  					echo "<script>alert('Error password mismatch!')</script>";
+		  				}
+		  			}
+		  		
+		  		
+		  		
+		  			//echo"<script>alert('working')</script>";
+
+
+		  		}
+
+		  		?>
+
 		</div> <!-- wrapper div ends here -->
+
+	
+				
 
 	<script>
 		
@@ -107,4 +210,7 @@
 
 
 </body>
+
+
+		  		<
 </html>
