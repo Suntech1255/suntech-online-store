@@ -36,7 +36,9 @@
   
 
 <div class="fund">
+<h2>please enter amount to fund</h2>
   <form action="" class="fom">
+ 
       <input type="number" name="" id="num" placeholder="0.00" min="13">
       <br>
       <button id="add">ADD FUNDS</button>

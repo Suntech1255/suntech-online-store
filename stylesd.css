@@ -10,7 +10,7 @@ body {
 
   
   header {
-    background-color: orange;
+    background-color: bn ;
     padding: 20px;
     color: rgb(19, 18, 18);
   }
@@ -26,6 +26,7 @@ body {
     padding: 0;
     float: right;
     background-color: orange;
+    text-align: center;
   }
   
   .navbar li {
@@ -56,6 +57,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 13px 13px 9px 7px;
+    text-align: center;
   }
   
   .dropdown-content a {
@@ -175,13 +177,29 @@ body {
 .fom{
     margin: auto;
     font-size: 40px;
+   
 }
 
 #num{
-    max-width: 400px;
+    max-width: 140px;
     height: 30px;
     font-size: 40px;
     padding: 10px;
     box-shadow:inset 0px 0px 9px rgba(0, 0, 0, 0.63);
     border-radius: 2px 3px 3px 1px;
 }
+
+#add{
+  font-size: 10px;
+  max-width: 120px;
+  border-radius: 2px 3px 3px 1px;
+  padding: 10px;
+}
+
+#add:hover{
+  font-size: 12px;
+}
+#num:focus{
+  max-width: 300px;
+}
+
