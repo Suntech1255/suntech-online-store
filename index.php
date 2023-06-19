@@ -88,7 +88,9 @@
 
 
 
-		<div class="section_btn"><span></span><h3>creativity</div>	
+		<div class="section_btn"><span></span><h3>creativity</div>
+
+		<div class="section_btn_2"><span></span><h3>productivity</div>		
 			                                                                            	
 		  		
 
