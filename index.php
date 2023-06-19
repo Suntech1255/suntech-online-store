@@ -1,5 +1,3 @@
-<?php include"db/conn.php"; ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,162 +5,106 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css-style/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://kit.fontawesome.com/e619c875e4.js" crossorigin="anonymous"></script>	
+	<script src="https://kit.fontawesome.com/e619c875e4.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 	<title>Online-Store</title>
-
-	<style>
-		form input
-		{
-			padding:10px;
-			outline: none;
-			border-radius: 10px;
-		}
-	</style>
 </head>
 <body>
 
-	
+<div class="wrapper">
 
 		<?php include("include/head.php") ?>
 
-	</header>
+		<?php include("include/top-nav.php") ?>
 
-			<nav>
+			<div class="banner-text">
 
-			<?php include("include/top-nav.php") ?><!-- a php function for including pages to other page-->
-   		
-   		</nav>
-		<div class="wrapper">
+				<h2>Web Studio</h2>
+				<p>All Web Template Avaliable</p>
 
-				<div class="main_section">
-							<div class="sub_section-1">
-		  							<li>Accessary Store</l1>
-		  							<li>Game Store</li>
-		  							<li>Broker Store</li>
-		  							<li>Portfolio Store</li>
-		  							<li>Marketing Store</li>
-		  							<li>Wellness Store</li>
-		  							<li>Bookstore</li>
-		  							<li>Subscription Box Company</li>
-		  							<li>Blockchain </li>
-		  							<li>Boots</li>
-		  							<li>Zmstrategy Trading Bots</li>
-		  							<li>Ceramic Studio</li>
-		  							<li>Cookie Shop</li>
-		  							<li>Stationary Store</li>
-		  							<li>Product Landing Page</li>
-		  					 </div><!-- sub_1  div end-->
+			</div>
 
 
 
-		  					 <div class="sub_section-2">			
-		  							<li>Pet Supply Store</l1>
-		  							<li>Art & Craft Store</li>
-		  							<li>Toy Store</li>
-		  							<li>Electronic Store</li>
-		  							<li>Beauty Store</li>
-		  							<li>Jewelry Store </li>
-		  							<li>Clothing Store</li>
-		  							<li>Stationery Store</li>
-		  			
-		  								<div class="image-1">
-											<img src="./image/bag.jpg">
-		  								</div>
-		  						</div><!-- sub_section 2 div end-->
-
-		  		<div class="section_2">
+		<div class="site-btn">
 
 
-		  		</div>
-                                                                                                                                                                                                                                                                                     
-				</div><!--main_section div ends here -->
+			<a href="#"><span></span>Find Out</a>
+			<a href="#"><span></span>Read More</a>
 
-				<form autocomplete="off" method="POST" style=" background:linear-gradient(blue)padding:30px;text-align: center;width:30%;margin: auto;border-radius:10px;">
-		  			
 
-		  			<input type="text" placeholder="username" name="user">
-		  			<br>
-		  			<input type="email" placeholder="email" name="email">
-		  			<br>
-		  			<input type="password" placeholder="pass1" name="Enter password">
-		  			<br>
+	  		
+	    </div>
+</div>
 
-		  			<input type="password" placeholder="pass2" name="Enter C-password">
-		  			<br>
+	<div class="container">
+	
+		<!-- Slider main container -->
+		<div class="swiper">
+ 			 <!-- Additional required wrapper -->
+  			<div class="swiper-wrapper">
+ 	   			<!-- Slides -->
+    			<div class="swiper-slide"><img src="./image/bag.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/cream.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/crop top.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/glasses.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/headbands.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/shoe.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/makeupbag.jpg"></div>
+  	
+  			</div>
+  			<!-- If we need pagination -->
+  			<div class="swiper-pagination"></div>
 
-		  			<input type="number" placeholder="phone" name="phone">
-		  			<br> 	
-		  			<button style="cursor: pointer;" name='submit'>Register</button>
+  			<!-- If we need navigation buttons -->
+  			<div class="swiper-button-prev"></div>
+  			<div class="swiper-button-next"></div>
 
-		  		</form>
+  		</div>
 
-		  		<?php
+	</div>
 
-		  		if(isset($_POST['submit']))
-		  		{
-		  			$userName=$_POST['user'];
-		  			$userEmail=$_POST['email'];
-		  			$pass1=$_POST['pass1'];
-		  			$pass2=$_POST['pass2'];
-		  			$phone=$_POST['phone'];
 
-		  			if(empty($userName))
-		  			{
-		  				echo "<script>alert('please enter username!')</script>";
-		  			}
-		  			elseif (empty($userEmail)) 
-		  			{
-		  				echo "<script>alert('please enter email!')</script>";
-		  			}
-		  			elseif(empty($pass1))
-		  			{
-		  				echo "<script>alert('please enter a password!')</script>";
-		  			}
-		  			elseif(empty($pass2))
-		  			{
-		  				echo "<script>alert('please confirm your password!')</script>";
-		  			}
-		  			elseif(empty($phone))
-		  			{
-		  				echo "<script>alert('please enter phone number!')</script>";
-		  			}
-		  			else
-		  			{
-		  				//check if password match
-		  				if($pass1===$pass2)
-		  				{
-		  					$insert="INSERT INTO accounts (user_name,email,pass_1,pass_2,phone) VALUES ('$userName','$userEmail','$pass1','$pass2','$phone')";
+	<div class="main_section">
 
-		  					$query =mysql_query($conn,$insert);
+		<div class="section_1">
+			
+			<li>Accessary Store</l1>
+		  		<li>Game Store</li>
+		  		<li>Broker Store</li>                                                                               
+		  		<li>Portfolio Store</li>
+		  		<li>Marketing Store</li>
+		  		<li>Wellness Store</li>
+		  		<li>Bookstore</li>
+		  		<li>Subscription Box Company</li>
+		  		<li>Blockchain </li>
+		  		<li>Boots</li>
+		  		<li>Zmstrategy Trading Bots</li>
+		  		<li>Ceramic Studio</li>
+		  		<li>Cookie Shop</li>
+		  		<li>Stationary Store</li>
+		  		<li>Product Landing Page</li>
+		  	</div>
 
-		  					if($query==true)
-		  					{
-		  						echo "<script>alert('Registration successful..')</script>";
-		  					}
-		  					else
-		  					{
-		  						echo "<script>alert('Registration error()!')</script>";
-		  					}
-		  				}
-		  				else
-		  				{
-		  					echo "<script>alert('Error password mismatch!')</script>";
-		  				}
-		  			}
+
+
+		<div class="section_btn"><span></span><h3>creativity</div>	
+			                                                                            	
 		  		
-		  		
-		  		
-		  			//echo"<script>alert('working')</script>";
 
 
-		  		}
+	</div>
 
-		  		?>
 
-		</div> <!-- wrapper div ends here -->
+
+
+
+
+
 
 	
-				
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 	<script>
 		
@@ -187,15 +129,34 @@
 
 		}
 
+///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+		const swiper = new Swiper('.swiper', {
+  // Optional parameters
+
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+
 
 </script>
 
 
+
 <?php include("include/footer.php") ?>
-
-
 </body>
-
-
-		  		
 </html>
