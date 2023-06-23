@@ -69,7 +69,7 @@
 
 		<div class="section_1">
 			
-			<li>Accessary Store</l1>
+			<li>Accessary Store</li>
 		  		<li>Game Store</li>
 		  		<li>Broker Store</li>                                                                               
 		  		<li>Portfolio Store</li>
@@ -87,24 +87,15 @@
 		  	</div>
 
 
-
+<!--
 		<div class="section_btn"><span></span><h3>creativity</div>
 
 		<div class="section_btn_2"><span></span><h3>productivity</div>		
 			                                                                            	
 		  		
-
+-->
 
 	</div>
-
-
-
-
-
-
-
-
-	
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -154,6 +145,29 @@
 
 });
 
+///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+var drop_down_menu=true;
+		function dropdownMenu()
+		{
+			if(drop_down==false)
+			{
+			var up_nav= document.querySelector(".nav_1").style.display="none";
+			//up_nav= document.querySelector(".nav_1").style.transform="translateY(-100%)";
+
+
+			drop_down=true;
+
+			}
+			else if (drop_down==true) 
+			{
+				var up_nav= document.querySelector(".nav_1").style.display="block";
+				drop_down=false;
+			}
+
+		}
 
 </script>
 
