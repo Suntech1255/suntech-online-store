@@ -69,31 +69,11 @@
 
 		<div class="section_1">
 			
-			<li>Accessary Store</li>
-		  		<li>Game Store</li>
-		  		<li>Broker Store</li>                                                                               
-		  		<li>Portfolio Store</li>
-		  		<li>Marketing Store</li>
-		  		<li>Wellness Store</li>
-		  		<li>Bookstore</li>
-		  		<li>Subscription Box Company</li>
-		  		<li>Blockchain </li>
-		  		<li>Boots</li>
-		  		<li>Zmstrategy Trading Bots</li>
-		  		<li>Ceramic Studio</li>
-		  		<li>Cookie Shop</li>
-		  		<li>Stationary Store</li>
-		  		<li>Product Landing Page</li>
+			<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</li>
+		  		
 		  	</div>
 
 
-<!--
-		<div class="section_btn"><span></span><h3>creativity</div>
-
-		<div class="section_btn_2"><span></span><h3>productivity</div>		
-			                                                                            	
-		  		
--->
 
 	</div>
 
@@ -147,8 +127,8 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////
-
-
+//my drop down menu button for small devices//
+		
 var drop_down_menu=true;
 		function dropdownMenu()
 		{
@@ -167,12 +147,11 @@ var drop_down_menu=true;
 				drop_down=false;
 			}
 
-		}
-
+		}                                                                
+                                                                 
 </script>
 
-
-
 <?php include("include/footer.php") ?>
+
 </body>
 </html>

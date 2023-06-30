@@ -12,7 +12,7 @@ body
 	background-size: cover;
 	width: 99vw;
 	position: relative;
-	left: 0.5vw;
+	
 }
 
 
@@ -142,13 +142,14 @@ nav
 	z-index: 500;
 	padding: 0 10px;
 	transition: 1s;
+	text-align: center;
 }
 
 nav .nav_2
 {
 	display: none;
-	
 	width: 100%;
+	
 }
 
 nav .nav_2_btn
@@ -162,7 +163,7 @@ nav .nav_2_btn
 
 nav a{
 	display: inline-block;
-	margin:5px 40px;
+	margin:10px 50px;
 	color:cornsilk ;	
 	text-decoration: none;
 	font-family: arial;
@@ -269,9 +270,10 @@ nav a :hover{
 
 .main_section
 {
-width: 100%;
+	width:99%;
 padding:50px;
 display:flex;
+
 }
 
 .main_section .section_1
@@ -460,4 +462,12 @@ nav .nav_1
 {
 	display: none;
 }
+
+
+.main_section
+{
+
+}
+
+
 }

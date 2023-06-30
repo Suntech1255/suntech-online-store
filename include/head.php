@@ -1,6 +1,8 @@
 
 			<header>
 
+			
+
 				<h1 class="site_name"><i>Suntech-eCommerce</i></h1>
 
 				<div class="search_wrapper">

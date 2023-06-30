@@ -14,6 +14,6 @@
 <a href="market.php"><i class="fa fa-shopping-cart"></i> Market</a>
 	
 <a href="Logout.php"><i class="fa fa-sign-out"></i> Logout</a>
-</span>s
+</span>
 
 </nav>
