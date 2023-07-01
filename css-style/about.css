@@ -8,7 +8,7 @@ img{
    height:150px;
 }
 body{
-   background-image:linear-gradient(black,royalblue);
+   background-color:linear-gradient(white,royalblue);
 }
 .about h2{
    text-align:center;

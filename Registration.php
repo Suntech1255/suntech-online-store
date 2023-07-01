@@ -1,80 +1,15 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <title>MY PAGE</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css-style/Registration.css">
     
-    <style>
-        *
-        {
-        pading:0;
-        margin: 0;
 
-        }
-body
-{
-  background:skyblue;
-  font-family:arial;
-}
-a
-{
-  text-decoration: none;  
-}
-
-form
-{
-background:linear-gradient(white,skyblue);
-padding:30px;
-margin:auto;
-display:block;
-max-width:420px;
-height:620px;
-border-radius:10px;
-margin-top:18px; 
-box-shadow:2px 4px 6px ;
-}
-form input , textarea
-{
-  background:gainsboro;  
-    display:block;
-   padding:15px;
-   width:400px;
-   border-radius: 25px;
-   box-shadow: 1px ;
-   outline:none;
-   border: solid white 0px;
-}
-button
-{
- cursor: pointer;
- color:blueviolet;
- height:40px;
- width:100px; 
- border-radius: 25px;
-  box-shadow:1px 2px ; 
-  border:none; 
-}
-label
-{
-    color:slateblue;
-}
-.but
-{
-  cursor:pointer;  
-  color:slateblue;
-  text-decoration:underline;  
-}
-
-
-
-    </style>
 
 </head>
-<body>
-
-<?php include("include/top-nav.php") ?> 
+<body> 
 
 
 <form>
@@ -99,11 +34,11 @@ label
        <br>
 <label>PASSWORD</label>
     <br>
-<input type="pass" name="pass" placeholder="pass">
+<input type="password" name="pass1" placeholder="password">
      <br>
 <label>CONFIRM PASSWORD</label>
 
-<input type="pass" name="pass" placeholder="confirm pass">
+<input type="password" name="pass2" placeholder="Confirm password">
   <br>
 <center><button>submit</button></center>
   <br>

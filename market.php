@@ -204,7 +204,19 @@
  	<button class="loadmore"> Load More</button>
 
  
+<<<<<<< HEAD
     
+=======
+    <div class="footer">
+    	<footer > 
+    		
+   <?php include("include/footer.php") ?>
+
+
+   </footer>
+    </div>
+
+>>>>>>> 2f02be44a49dc2c2781c3a205bfafd947fdca9e6
 
 </body>
 </html>
