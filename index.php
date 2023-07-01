@@ -5,76 +5,79 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css-style/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://kit.fontawesome.com/e619c875e4.js" crossorigin="anonymous"></script>	
+	<script src="https://kit.fontawesome.com/e619c875e4.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 	<title>Online-Store</title>
 </head>
 <body>
 
-	<header></header>
+<div class="wrapper">
 
 		<?php include("include/head.php") ?>
 
-	</header>
+		<?php include("include/top-nav.php") ?>
 
-			<nav>
+			<div class="banner-text">
 
-			<?php include("include/top-nav.php") ?><!-- a php function for including pages to other page-->
-   		
-   		</nav>
-		<div class="wrapper">
+				<h2>Web Studio</h2>
+				<p>All Web Template Avaliable</p>
 
-				<div class="main_section">
-							<div class="sub_section-1">
-		  							<li>Accessary Store</l1>
-		  							<li>Game Store</li>
-		  							<li>Broker Store</li>
-		  							<li>Portfolio Store</li>
-		  							<li>Marketing Store</li>
-		  							<li>Wellness Store</li>
-		  							<li>Bookstore</li>
-		  							<li>Subscription Box Company</li>
-		  							<li>Blockchain </li>
-		  							<li>Boots</li>
-		  							<li>Zmstrategy Trading Bots</li>
-		  							<li>Ceramic Studio</li>
-		  							<li>Cookie Shop</li>
-		  							<li>Stationary Store</li>
-		  							<li>Product Landing Page</li>
-		  					 </div><!-- sub_1  div end-->
+			</div>
 
 
 
-		  					 <div class="sub_section-2">			
-		  							<li>Pet Supply Store</l1>
-		  							<li>Art & Craft Store</li>
-		  							<li>Toy Store</li>
-		  							<li>Electronic Store</li>
-		  							<li>Beauty Store</li>
-		  							<li>Jewelry Store </li>
-		  							<li>Clothing Store</li>
-		  							<li>Stationery Store</li>
-		  			
-		  								<div class="image-1">
-											<img src="./image/bag.jpg">
-		  								</div>
-		  						</div><!-- sub_section 2 div end-->
-
-		  		<div class="section_2">
+		<div class="site-btn">
 
 
+			<a href="#"><span></span>Find Out</a>
+			<a href="#"><span></span>Read More</a>
+
+
+	  		
+	    </div>
+</div>
+
+	<div class="container">
+	
+		<!-- Slider main container -->
+		<div class="swiper">
+ 			 <!-- Additional required wrapper -->
+  			<div class="swiper-wrapper">
+ 	   			<!-- Slides -->
+    			<div class="swiper-slide"><img src="./image/bag.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/cream.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/crop top.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/glasses.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/headbands.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/shoe.jpg"></div>
+    			<div class="swiper-slide"><img src="./image/makeupbag.jpg"></div>
+  	
+  			</div>
+  			<!-- If we need pagination -->
+  			<div class="swiper-pagination"></div>
+
+  			<!-- If we need navigation buttons -->
+  			<div class="swiper-button-prev"></div>
+  			<div class="swiper-button-next"></div>
+
+  		</div>
+
+	</div>
+
+
+	<div class="main_section">
+
+		<div class="section_1">
+			
+			<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</li>
+		  		
+		  	</div>
 
 
 
-		  		</div>
-                                                                                                                                                                                                                                                                                                   
-		  				
+	</div>
 
-
-
-
-				</div><!--main_section div ends here -->
-
-		</div> <!-- wrapper div ends here -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 	<script>
 		
@@ -99,12 +102,56 @@
 
 		}
 
+///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 
+		const swiper = new Swiper('.swiper', {
+  // Optional parameters
+
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+
+///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//my drop down menu button for small devices//
+		
+var drop_down_menu=true;
+		function dropdownMenu()
+		{
+			if(drop_down==false)
+			{
+			var up_nav= document.querySelector(".nav_1").style.display="none";
+			//up_nav= document.querySelector(".nav_1").style.transform="translateY(-100%)";
+
+
+			drop_down=true;
+
+			}
+			else if (drop_down==true) 
+			{
+				var up_nav= document.querySelector(".nav_1").style.display="block";
+				drop_down=false;
+			}
+
+		}                                                                
+                                                                 
 </script>
 
-
 <?php include("include/footer.php") ?>
-
 
 </body>
 </html>

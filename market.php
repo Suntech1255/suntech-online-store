@@ -206,7 +206,9 @@
  
     <div class="footer">
     	<footer > 
-    <h3> Copyright &copy; 2023 ogagapeter webpage</h3>
+    		
+   <?php include("include/footer.php") ?>
+
 
    </footer>
     </div>

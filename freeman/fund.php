@@ -29,6 +29,7 @@
     <a href="#">WITHDRAW</a>
     <a href="#">MY PURCHARSE</a>
     <a href="#">SUPPORT</a>
+    <a href="login.php">LOGOUT</a>
   </div>
   </div>
   <script src="script.js"></script>
