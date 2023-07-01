@@ -1,0 +1,249 @@
+header
+{
+	position: fixed;
+	top: 0;
+	width:100%;	
+	z-index: 950;
+	background:linear-gradient(rgba(0, 0, 0, 0.-3),black);
+
+}
+
+.site_name {
+	margin-left: 40px;
+	color:white;
+	font-family: 'kaushan Script', cursive;
+	display: inline-block;
+}
+
+.search_wrapper {
+width: 40%;
+position: absolute;
+display: inline-block;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.ex_icons {
+position: absolute;
+display: inline-block;
+right: 70px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+
+
+header input 
+{
+	padding:5px;
+	outline: none;
+	width:80%;
+	font-size: 18px;
+}
+
+.fa-search
+{
+	background: black;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color:white;
+	padding: 9px;
+}
+
+
+ .fa-user{
+	color:yellow;
+	margin: 0 5px;
+
+}
+.fa-bell{
+	color:royalblue;
+	margin: 0 5px;
+}
+.product_button {
+	background-color:inherit;
+	border:1px solid whitesmoke;
+	padding: 4px;
+	border-radius:4px;
+	color:white;
+	font-size:17px;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+header .products
+{
+	color:white;
+	display: inline-block;
+
+}
+
+header .products ul
+{
+	color:white;
+	position: fixed;
+	display: none ;
+	margin-top: 30px;
+	
+}
+
+ul li{
+	margin-top: 10px;
+	background: darkblue;
+	margin-top: 10px;
+	background: darkblue;
+	padding:5px;
+	border-bottom-right-radius: 15px;
+	cursor: pointer;
+}
+
+ul :hover
+{
+	padding:15px;
+	transition: 1s;
+	margin: 20px;
+	
+}
+
+nav
+{
+
+	top:70px;
+   	background:linear-gradient(rgba(0, 0, 0, 0.0),black);
+	width: 100%;
+	position: fixed;
+	z-index: 500;
+	padding: 0 10px;
+	transition: 1s;
+	text-align: center;
+}
+
+nav .nav_2
+{
+	display: none;
+	width: 100%;
+	
+}
+
+nav .nav_2_btn
+{
+	color: white;
+	background-color: inherit;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	font-size: 15px;
+	
+	
+}
+
+nav a{
+	display: inline-block;
+	margin:10px 50px;
+	color:cornsilk ;	
+	text-decoration: none;
+	font-family: arial;
+	margin-left:0px;
+	
+
+}
+
+nav a :hover{
+	
+	color:red;
+
+
+}
+
+/* footer css starts here */
+
+
+footer
+{
+	background:black;
+	color:white;
+	text-align: center;
+	position: relative;
+	width:100%;
+	padding:10px;
+
+}
+@media (max-width:1100px){
+.search_wrapper {
+display: none;
+}
+}
+
+@media (max-width:800px){
+.site_name {
+	margin-left: 15px;
+	font-size: 22px;
+}
+.swiper{
+	width:75%; 
+}
+}
+	
+@media (max-width:555px){
+.site_name {
+	margin-left: 8px;
+	font-size: 18px;
+}
+.ex_icons {
+right: 10px;
+}
+.product_button {
+	padding: 3px;
+	border-radius:3px;
+	font-size:15px;
+}
+
+.banner-text h2{
+	font-size: 50px;
+
+}
+
+
+.banner-text p{
+	font-size: 18px;
+}
+
+.site-btn a
+{
+	display: block;
+	width:200px;
+	font-size: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.swiper{
+	width:100%; 
+}
+nav .nav_2
+{
+	display: block;
+}
+nav .nav_1
+{
+	display: none;
+}
+
+nav a{
+	display:inline-block;
+	font-size:10px;
+	
+	}
+
+
+.main_section
+{
+
+}
+
+
+}
+

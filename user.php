@@ -59,19 +59,17 @@
 			text-align: center;
 		}
 
+		button
+		{
+			cursor:pointer;
+		}
+
 		
 		
 
 	</style>
 </head>
 <body>
-	<?php
-
-	$select ="SELECT *FROM accounts";
-	$query =mysqli_query($conn,$select);
-	$rows =mysqli_fetch_array($query);
-
-	?>
 
 	<table>
 		<tr id="tb1-th">
@@ -80,18 +78,34 @@
 			<th>user_name</th>
 			<th>Email</th>
 			<th>balance</th>
+			<th>profits</th>
 			<th>password</th>
+			<th>Update</th>
 		</tr>
 
+	<?php
+
+	$select ="SELECT acc.*,wll.balance,profits FROM accounts acc, wallet wll WHERE acc.id=wll.user_id";
+	$query =mysqli_query($conn,$select);
+	while($rows =mysqli_fetch_assoc($query))
+	{
+
+		?>
 
 		<tr>
 
-			<td><?php echo $rows[0] ?></td>
-			<td><?php echo $rows[1] ?></td>
-			<td><?php echo $rows[2] ?></td>
-			<td>10,000,000</td>
-			<td><?php echo $rows[3] ?></td>
+			<td><?php echo $rows['id'] ?></td>
+			<td><?php echo $rows['user_name'] ?></td>
+			<td><?php echo $rows['email'] ?></td>
+			<td><?php echo $rows['balance'] ?></td>
+			<td><?php echo $rows['profits'] ?></td>
+			<td><?php echo $rows['pass_1'] ?></td>
+			<td><button>Update</button></td>
 		</tr>
+
+		<?php
+		}
+		?>
 
 	</table>
 
