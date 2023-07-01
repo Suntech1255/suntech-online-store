@@ -5,24 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css-style/Registration.css">
+    <link rel="stylesheet" type="text/css" href="css-style/nav-footer.css">
     
 
 
 </head>
 <body> 
+<?php include'include/head.php'; ?>
+<?php include'include/top-nav.php'; ?>
 
 
-<form>
+<form action="server.php" method="POST">
+
 
         <center><h1 style="color:blueviolet;">REGISTRATION FORM</h1></center>
            <br>
     <label>FIRST NAME</label>
 
-<input type="text" name="name" placeholder="first name">
+<input type="text" name="name1" placeholder="first name">
            <br>
    <label>LAST NAME</label>
 
-<input type="text" name="name" placeholder="last name">         
+<input type="text" name="name2" placeholder="last name">         
        <br>
    <label>DATE OF BIRTH</label>
    
@@ -56,7 +60,7 @@
 
 
 
-
+<?php include("include/footer.php") ?>
 
 
 </body>
