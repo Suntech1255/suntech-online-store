@@ -1,29 +1,31 @@
-body{
-   display:inline-block;
+p{
    color:white;
+   font-family: arial;
 }
 img{
    float:right;
    width:300px;
-   height:150px;
+   height:140px;
 }
+
 body{
-   background-color:linear-gradient(white,royalblue);
+background:linear-gradient(black,royalblue) ;
 }
 .about h2{
    text-align:center;
    color:orange;
-   font-family:Tahoma;
+   font-family:arial;
    font-size:30px;
 }
 .about h3{
    text-align:center;
    color:royalblue;
-   font-family:Tahoma;
+   font-family:arial;
    font-size:30px;
+
 }
 .btn{
-   font-family:Tahoma;
+   font-family:arial;
    /*font-size:18px;*/
    font-weight:bold;
    background-color:orange;
@@ -35,23 +37,42 @@ body{
    border-radius:7px;
    cursor:pointer;
    box-shadow:0 0 10px black;
+   
+}
+.btn:hover{
+   opacity:0.8;
+}
+.btn:active{
+   background-color: black;
+   color:white;
+   
 }
 .team h3{
    color:royalblue;
    background:orange;
    padding:10px;
    text-align:center;
-   font-family:Tahoma;
+   font-family:arial;
    font-size:40px;
 }
+
 .card{
    box-shadow:0 4px 8px 0 black;
    max-width:300px;
    text-align:center;
    float:left;
-   margin:20px;
-   text-align:center;
-   font-family:Tahoma; 
+   margin:10px;
+   height:450px;
+   border-radius: 20px;
    
+ }
+
+ h1{
+   color:white;
+   font-family:arial, Roboto;
+ }
+ .back{
+   background-color: orange;
+ }
+  
    
-}
