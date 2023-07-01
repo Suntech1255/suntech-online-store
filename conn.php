@@ -14,5 +14,3 @@ else
 {
     echo "connection succesfull";
 }
-
-?>
