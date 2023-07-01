@@ -2,10 +2,15 @@
     <head>
         <title>ABOUT US</title>
         <link rel="stylesheet" type="text/css" href="css-style/about.css">
+        <link rel="stylesheet" type="text/css" href="css-style/nav-footer">
+        
+        
     </head>
     
     <body>
-    
+        <?php
+       include "include/head.php";
+       ?>
 
 <div class="about">
        <h2>ABOUT US<h2> 
@@ -38,7 +43,6 @@
         
         <center><a href="#" class="btn">CONTACT US</a></center>
 </div>
-
 <div class="team">
     <h3>TEAMS</h3>
     <div class="card">
@@ -49,59 +53,61 @@
  </div>
 </div>
 
-<div class="team">
-    <div class="card">
+ <div class="card">
     <img src="PHOTOS/RUKKY.jpg" alt="REJOICE" style="height:300px; width:300px;">
        <h1>Rejoice</h1>
        <h1 class="back">Web designer</h1>
        <a href="#"class="btn">CONTACT</a>
- </div>
 </div>
 
-<div class="team">
-    <div class="card">
+<div class="card">
     <img src="PHOTOS/EDWARD.jpg" alt="EDWARD" style="height:300px; width:300px;">
        <h1>Edward</h1>
        <h1 class="back">Web designer</h1>
        <a href="#"class="btn">CONTACT</a>
  </div>
-</div>
 
-<div class="team">
-    <div class="card">
+<div class="card">
     <img src="PHOTOS/TEGA.jpg" alt="TEGA" style="height:300px; width:300px;">
        <h1>Tega</h1>
        <h1 class="back"> Web designer</h1>
        <a href="#"class="btn">CONTACT</a>
  </div>
-</div>
 
-<div class="team">
-    <div class="card">
+<div class="card">
     <img src="PHOTOS/DAVID.jpg" alt="DAVID" style="height:300px; width:300px;">
        <h1>David</h1>
-       <h1 class="back">C.E.O</h1>
+       <h1 class="back">Web designer</h1>
        <a href="#"class="btn">CONTACT</a>
  </div>
-</div>
 
-<div class="team">
-    <div class="card">
+<div class="card">
     <img src="PHOTOS/FESTUS.jpg" alt="FESTUS" style="height:300px; width:300px;">
        <h1>Festus</h1>
-       <h1 class="back">C.E.O</h1>
+       <h1 class="back">Web designer</h1>
        <a href="#"class="btn">CONTACT</a>
  </div>
-</div>
 
-<div class="team">
-    <div class="card">
+<div class="card">
     <img src="PHOTOS/PETER.jpg" alt="PETER" style="height:300px; width:300px;">
        <h1>Peter</h1>
-       <h1 class="back">C.E.O</h1>
+       <h1 class="back">Web designer</h1>
        <a href="#"class="btn">CONTACT</a>
- </div>
 </div>
+
+<?php
+       include  "include/footer.php";
+       ?>
+
+
+
+
+       
+
+ 
+
+
+
 
 
 
