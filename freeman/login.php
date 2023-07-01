@@ -20,7 +20,7 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="pass2"  required><br><br>
                 
-                <button type="submit" class="submits" name="submit"> LOGIN</button>
+                <button type="submit" class="submits" name="submit" style="overflow:hidden"><span ></span> LOGIN</button>
                 <p>you don't have an account? click <a href="registration.php">here</a> to register</p>
             </form>
 

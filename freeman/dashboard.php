@@ -1,3 +1,5 @@
+
+<?php include'conn.php' ; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +16,7 @@
  }
 </style>
 </head>
-<body>
+<body> 
   <header>
     <nav>
       <div class="logo">FREEMAN FREEMAN</div>
@@ -76,4 +78,5 @@
 
 
 </body>
+
 </html>

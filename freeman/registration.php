@@ -44,6 +44,7 @@
 
 
     <?php
+	session_start();
 		if(isset($_POST['submit']))
 		{
       $firstname= $_POST['first'];
@@ -103,7 +104,7 @@
 				}
 			}
 			
-		}?>
+		}exit;?>
   </div>
 </body>
 </html>
