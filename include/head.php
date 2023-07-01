@@ -1,6 +1,7 @@
 
 			<header>
 
+
 			
 
 				<h1 class="site_name"><i>Suntech-eCommerce</i></h1>
@@ -25,8 +26,7 @@
 						<b><li>Amazone</li></b>	
 
    				      </ul>
-
-   					
+	
 
 				  </div>	
 				</div>
