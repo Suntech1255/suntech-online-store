@@ -1,4 +1,4 @@
-<?php
+ <?php
 include'db/conn.php';
 if($_SERVER['REQUEST_METHOD']=="POST")
 {
@@ -79,7 +79,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 						if ($query==true)
 						{
 							//echo "insert sucessful";
-							$last_id =mysqli_insert_id($conn);
+								$last_id =mysqli_insert_id($conn);
 
 							$insert_wallet ="INSERT INTO wallet (balance,profits,affillate,user_id) values ('10000','2000','4.99','$last_id')";
 							$query2 =mysqli_query($conn, $insert_wallet);
@@ -93,6 +93,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 								</script>
 								<?php
 								header("refresh:0;url=login.php");
+						
 							}
 						}
 					}
