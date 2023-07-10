@@ -1,4 +1,4 @@
- /**{padding: 0; margin:0; box-sizing: border-box;*/}
+ *{padding: 0; margin:0;/* box-sizing: border-box;*/}
  .head{
 	text-align: center;
 	color: royalblue;
@@ -33,7 +33,7 @@ cursor: pointer;
 .sec .products .card .title{
 font-weight: 900;
 font-size:20px;
-color: orange;
+color: cyan;
 padding: 0  10px;
 
 }
@@ -43,7 +43,7 @@ justify-content: space-between;
 padding: 10px;
 }
 .sec .products .card .box .price{
-color: black;
+color: red;
 font-size: 20px;
 font-weight: bold
 
@@ -51,54 +51,38 @@ font-weight: bold
 .sec .products .card .box .btn{
 font-size: 15px;
 font-weight: 900;
-color: royalblue;
+color: red;
 padding: 10px 18px ;
 border: 1px solid;
 border-radius: 20px;}
 
 .sec .products .card .box .btn:hover{
 cursor:pointer;
-background-color: orange;
+background-color: red;
 color:white;
 }
 
-.butt{
+.loadmore{
 font-size: 15px;
 font-weight: 900;
-color: royalblue;
+color: red;
 padding: 10px 18px ;
 border: 1px solid;
 border-radius: 20px;
+
+margin-bottom:30px;
 }
 .loading{
-margin-left: 80;
-position:fixed;
-margin-bottom:30px;
-left: 200px;
+margin-left: 80%;
 
+position:fixed;
 }
-.parent4 {
-  position: fixed;
-  border: 1px solid blue;
-  background-color: rgba(255,200,200,0.5);  
-  width: 300px;
-  height: 100px;
-  bottom: 0;
-  left: 20;
-  right: 0;
-}
-.loadmore{
- background-color: ;  
-font-size: 15px;
-font-weight: 900;
-color: royalblue;
-padding: 10px 18px ;
-border: 1px solid;
-border-radius: 20px;
-margin-left: 800px; 
-}
- .loadmore:hover{
-cursor:pointer;
-background-color: orange;
-color:white;
+
+
+footer{
+text-align:center;
+background-color: royalblue;
+padding: 20px;
+width: 100%;
+margin-top:10px;
 }

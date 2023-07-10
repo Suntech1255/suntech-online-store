@@ -1,3 +1,4 @@
+
  <!DOCTYPE html>
 <html>
 <head>
@@ -10,10 +11,10 @@
 
 
 </head>
-<body> 
+<body>
+
 <?php include'include/head.php'; ?>
 <?php include'include/top-nav.php'; ?>
-
 
 <form action="server.php" method="POST">
 
@@ -31,7 +32,11 @@
    <label>DATE OF BIRTH</label>
    
 <input type="date" name="DOB" placeholder="">
-     <br>         
+     <br>  
+    <label>USER NAME</label>
+
+<input type="text" name="username" placeholder="user name">
+      <br>                    
 <label>EMAIL ADDRESS</label>
     <br>
 <input type="email" name="email" placeholder="email">
@@ -44,19 +49,12 @@
 
 <input type="password" name="pass2" placeholder="Confirm password">
   <br>
-<center><button>submit</button></center>
+<center><button name="submit">submit</button></center>
   <br>
   <span class="but">Already registered?</span>
   <a href="login.php" class="but">Sign In</a>
 
 </form>
-
-
-
-
-
-
-
 
 
 

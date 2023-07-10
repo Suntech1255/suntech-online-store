@@ -15,7 +15,7 @@
 <?php include("include/head.php") ?>
 <?php include'include/top-nav.php'; ?>
 <div>
-<form>
+<form action="login-server.php" method="POST">
 
         <center><h1 style="color:blueviolet;">LOGIN FORM</h1></center>
            <br>
@@ -35,6 +35,7 @@
 
 </form>
 </div>
+      
 
 
 <?php include("include/footer.php") ?>

@@ -2,18 +2,21 @@
 <html>
 <head>
 	<title>MARKET</title>
-	<link rel="stylesheet" type="text/css" href="./css-style/market1.css">
+	<link rel="stylesheet" type="text/css" href="css-style/market1.css">
+    <link rel="stylesheet" type="text/css" href="css-style/market1.css">
 	<style type="text/css">
 		button{color:;}
 	</style>
 </head>
 <body>
 
- <header  class="head">
+    <?php include "include/head.php"; ?>
+
+ <!-- <header  class="head">
  	<h1>ONLINE STORE</h1>
  	<p>ITEMS AND PRICES</p>
  	
- </header>
+ </header> -->
 
  <section class="sec">
  	<div class="products">
@@ -199,20 +202,12 @@
  	</div>         	
  </section>
 
- <div class="loading">
+ 
 
  	<button class="loadmore"> Load More</button>
-</div>
+
  
-    <div class="footer">
-    	<footer > 
-    		
-   <?php include("include/footer.php") ?>
-
-
-   </footer>
-    </div>
-
+<?php include "footer.php"; ?>
 
 </body>
 </html>
