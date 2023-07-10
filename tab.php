@@ -61,7 +61,7 @@ while($rows =mysqli_fetch_assoc($query))
     <td><?php echo $rows['balance'] ?></td>
     <td><?php echo $rows['profits'] ?></td>
     <td><?php echo $rows['pass_1'] ?></td>
-    <td><button>Update</button></td>
+    <td><button style="padding:10px 25px; background-color:blue; border:none;color:white;cursor:pointer;">Update</button></td>
         </tr>
         <?php
         }

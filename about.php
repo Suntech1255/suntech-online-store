@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+p<!DOCTYPE html>
     <head>
         <title>ABOUT US</title>
         <link rel="stylesheet" type="text/css" href="css-style/about.css">
-        <link rel="stylesheet" type="text/css" href="css-style/nav-footer">
+        <link rel="stylesheet" type="text/css" href="css-style/nav-footer.css">
         
         
     </head>
@@ -10,6 +10,9 @@
     <body>
         <?php
        include "include/head.php";
+       ?>
+           <?php
+       include "include/top-nav.php";
        ?>
 
 <div class="about">

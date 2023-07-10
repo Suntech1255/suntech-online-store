@@ -1,8 +1,6 @@
 
 <?php
-
-
-	$conn =mysqli_connect('localhost','root','','online_store',);
+$conn =mysqli_connect('localhost','root','','online_store',);
 
 	if(mysqli_connect_error())
 	{ 
