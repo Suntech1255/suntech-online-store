@@ -1,16 +1,16 @@
 <?php
 
 
-	$conn =mysqli_connect('localhost','root','','online_store',);
+$conn =mysqli_connect('localhost','root','','online_store',);
 
-	if(mysqli_connect_error())
-	{
-		echo "failed";
-	}
-	else
-	{
+if(mysqli_connect_error())
+{
+	echo "failed";
+}
+else
+{
 		//echo "connection succesfull";
-	}
+}
 
 
 ?>
@@ -83,27 +83,30 @@
 			<th>Update</th>
 		</tr>
 
-	<?php
-
-	$select ="SELECT acc.*,wll.balance,profits FROM accounts acc, wallet wll WHERE acc.id=wll.user_id";
-	$query =mysqli_query($conn,$select);
-	while($rows =mysqli_fetch_assoc($query))
-	{
-
-		?>
-
-		<tr>
-
-			<td><?php echo $rows['id'] ?></td>
-			<td><?php echo $rows['user_name'] ?></td>
-			<td><?php echo $rows['email'] ?></td>
-			<td><?php echo $rows['balance'] ?></td>
-			<td><?php echo $rows['profits'] ?></td>
-			<td><?php echo $rows['pass_1'] ?></td>
-			<td><button>Update</button></td>
-		</tr>
-
 		<?php
+
+		$select ="SELECT acc.*,wll.balance,profits FROM accounts acc, wallet wll WHERE acc.id=wll.user_id";
+		$query =mysqli_query($conn,$select);
+		while($rows =mysqli_fetch_assoc($query))
+		{
+
+			?>
+
+			<form>
+
+				<tr>
+					<td><?php echo $rows['id'] ?></td>
+					<td><?php echo $rows['user_name'] ?></td>
+					<td><?php echo $rows['email'] ?></td>
+					<td><?php echo $rows['balance'] ?></td>
+					<td><?php echo $rows['profits'] ?></td>
+					<td><?php echo $rows['pass_1'] ?></td>
+					<td><button style="background: blue; padding:5px;color:white;border:none;">Update</button></td>
+				</tr>
+
+			</form>
+
+			<?php
 		}
 		?>
 
