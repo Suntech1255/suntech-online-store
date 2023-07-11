@@ -15,7 +15,7 @@
 <?php include("include/head.php") ?>
 <?php include'include/top-nav.php'; ?>
 <div>
-<form action="server.php" method="POST">
+<form action="login-server.php" method="POST">
 
         <center><h1 style="color:blueviolet;">LOGIN FORM</h1></center>
            <br>

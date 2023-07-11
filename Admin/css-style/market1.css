@@ -1,0 +1,88 @@
+ *{padding: 0; margin:0;/* box-sizing: border-box;*/}
+ .head{
+	text-align: center;
+	color: royalblue;
+	padding: 40px;
+    font-family:arial; 
+	font-size : 30px;
+	box-shadow: 0  10px  20px  rgba(0, 0, 0, 0.3);
+}
+.sec .products{
+ 
+ 	display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.sec .products .card{	
+width: 300px;
+background: white;
+box-shadow: 0  10px  20px  rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+padding: 10px 10px;
+margin:20px;
+display: ;
+}
+.sec .products .card img{
+height: 250px;
+width:300px;
+cursor: pointer;
+}
+.sec .products .card img:hover{
+ transform: scale(1.05);
+}
+.sec .products .card .title{
+font-weight: 900;
+font-size:20px;
+color: cyan;
+padding: 0  10px;
+
+}
+.sec .products .card .box{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.sec .products .card .box .price{
+color: red;
+font-size: 20px;
+font-weight: bold
+
+}
+.sec .products .card .box .btn{
+font-size: 15px;
+font-weight: 900;
+color: red;
+padding: 10px 18px ;
+border: 1px solid;
+border-radius: 20px;}
+
+.sec .products .card .box .btn:hover{
+cursor:pointer;
+background-color: red;
+color:white;
+}
+
+.loadmore{
+font-size: 15px;
+font-weight: 900;
+color: red;
+padding: 10px 18px ;
+border: 1px solid;
+border-radius: 20px;
+
+margin-bottom:30px;
+}
+.loading{
+margin-left: 80%;
+
+position:fixed;
+}
+
+
+footer{
+text-align:center;
+background-color: green;
+padding: 20px;
+width: 100%;
+margin-top:10px;
+}
